@@ -299,7 +299,7 @@ ___
 
 ▸ **render**(): `Element`
 
-*Defined in [Identicon.tsx:94](https://github.com/polkadot-js/ui/blob/700d495/packages/ui-identicon/src/Identicon.tsx#L94)*
+*Defined in [Identicon.tsx:94](https://github.com/polkadot-js/ui/blob/a3e16ba/packages/ui-identicon/src/Identicon.tsx#L94)*
 
 **Returns:** `Element`
 
@@ -337,7 +337,7 @@ ___
 
 ▸ **getDerivedStateFromProps**(__namedParameters: *`object`*, prevState: *`State`*): `State` \| `null`
 
-*Defined in [Identicon.tsx:73](https://github.com/polkadot-js/ui/blob/700d495/packages/ui-identicon/src/Identicon.tsx#L73)*
+*Defined in [Identicon.tsx:73](https://github.com/polkadot-js/ui/blob/a3e16ba/packages/ui-identicon/src/Identicon.tsx#L73)*
 
 **Parameters:**
 
@@ -355,7 +355,7 @@ ___
 
 ▸ **setDefaultPrefix**(prefix: *`Prefix`*): `void`
 
-*Defined in [Identicon.tsx:69](https://github.com/polkadot-js/ui/blob/700d495/packages/ui-identicon/src/Identicon.tsx#L69)*
+*Defined in [Identicon.tsx:69](https://github.com/polkadot-js/ui/blob/a3e16ba/packages/ui-identicon/src/Identicon.tsx#L69)*
 
 **Parameters:**
 
@@ -375,7 +375,7 @@ ___
 
 **state**: *`object`*
 
-*Defined in [Identicon.tsx:62](https://github.com/polkadot-js/ui/blob/700d495/packages/ui-identicon/src/Identicon.tsx#L62)*
+*Defined in [Identicon.tsx:62](https://github.com/polkadot-js/ui/blob/a3e16ba/packages/ui-identicon/src/Identicon.tsx#L62)*
 
 <a id="state.address"></a>
 
@@ -383,7 +383,7 @@ ___
 
 **● address**: *`string`* = ""
 
-*Defined in [Identicon.tsx:63](https://github.com/polkadot-js/ui/blob/700d495/packages/ui-identicon/src/Identicon.tsx#L63)*
+*Defined in [Identicon.tsx:63](https://github.com/polkadot-js/ui/blob/a3e16ba/packages/ui-identicon/src/Identicon.tsx#L63)*
 
 ___
 <a id="state.publickey"></a>
@@ -392,7 +392,7 @@ ___
 
 **● publicKey**: *`string`* = "0x"
 
-*Defined in [Identicon.tsx:64](https://github.com/polkadot-js/ui/blob/700d495/packages/ui-identicon/src/Identicon.tsx#L64)*
+*Defined in [Identicon.tsx:64](https://github.com/polkadot-js/ui/blob/a3e16ba/packages/ui-identicon/src/Identicon.tsx#L64)*
 
 ___
 
