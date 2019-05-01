@@ -8,7 +8,7 @@
 
 ▸ **container**(diameter: *`number`*, background?: *`string`*, className?: *`string`*, _style?: *`object`*): `HTMLElement`
 
-*Defined in [beachball/container.ts:6](https://github.com/polkadot-js/ui/blob/a3e16ba/packages/ui-identicon/src/beachball/container.ts#L6)*
+*Defined in [beachball/container.ts:6](https://github.com/polkadot-js/ui/blob/d67f967/packages/ui-identicon/src/beachball/container.ts#L6)*
 
 **Parameters:**
 

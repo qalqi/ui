@@ -300,7 +300,7 @@ ___
 
 ▸ **render**(): `Element`
 
-*Defined in [options/KeyPair.tsx:53](https://github.com/polkadot-js/ui/blob/a3e16ba/packages/ui-keyring/src/options/KeyPair.tsx#L53)*
+*Defined in [options/KeyPair.tsx:53](https://github.com/polkadot-js/ui/blob/d67f967/packages/ui-keyring/src/options/KeyPair.tsx#L53)*
 
 **Returns:** `Element`
 
