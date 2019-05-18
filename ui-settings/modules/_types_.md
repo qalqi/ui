@@ -20,7 +20,7 @@
 
 **Ƭ Options**: *`Array`<`object`>*
 
-*Defined in [types.ts:5](https://github.com/polkadot-js/ui/blob/e0c4b6d/packages/ui-settings/src/types.ts#L5)*
+*Defined in [types.ts:5](https://github.com/polkadot-js/ui/blob/f1104b4/packages/ui-settings/src/types.ts#L5)*
 
 ___
 

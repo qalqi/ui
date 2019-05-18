@@ -13,5 +13,8 @@
 * [&quot;options/item&quot;](modules/_options_item_.md)
 * [&quot;options/types&quot;](modules/_options_types_.md)
   * [KeyringOptionInstance](interfaces/_options_types_.keyringoptioninstance.md)
+* [&quot;stores/LocalStorage&quot;](modules/_stores_localstorage_.md)
+  * [Store](classes/_stores_localstorage_.store.md)
 * [&quot;types&quot;](modules/_types_.md)
+  * [KeyringStore](interfaces/_types_.keyringstore.md)
   * [KeyringStruct](interfaces/_types_.keyringstruct.md)

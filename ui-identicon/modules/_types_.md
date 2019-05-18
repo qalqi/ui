@@ -8,7 +8,7 @@
 
 **Ƭ BaseProps**: *`object`*
 
-*Defined in [types.ts:7](https://github.com/polkadot-js/ui/blob/e0c4b6d/packages/ui-identicon/src/types.ts#L7)*
+*Defined in [types.ts:7](https://github.com/polkadot-js/ui/blob/f1104b4/packages/ui-identicon/src/types.ts#L7)*
 
 #### Type declaration
 
@@ -19,7 +19,7 @@ ___
 
 **Ƭ IdentityProps**: *[BaseProps](_types_.md#baseprops) & `object`*
 
-*Defined in [types.ts:20](https://github.com/polkadot-js/ui/blob/e0c4b6d/packages/ui-identicon/src/types.ts#L20)*
+*Defined in [types.ts:20](https://github.com/polkadot-js/ui/blob/f1104b4/packages/ui-identicon/src/types.ts#L20)*
 
 ___
 <a id="props"></a>
@@ -28,7 +28,7 @@ ___
 
 **Ƭ Props**: *[BaseProps](_types_.md#baseprops) & `object`*
 
-*Defined in [types.ts:14](https://github.com/polkadot-js/ui/blob/e0c4b6d/packages/ui-identicon/src/types.ts#L14)*
+*Defined in [types.ts:14](https://github.com/polkadot-js/ui/blob/f1104b4/packages/ui-identicon/src/types.ts#L14)*
 
 ___
 
