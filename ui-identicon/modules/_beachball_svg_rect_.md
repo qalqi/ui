@@ -8,7 +8,7 @@
 
 ▸ **rect**(size: *`number`*): `Element`
 
-*Defined in [beachball/svg/rect.ts:7](https://github.com/polkadot-js/ui/blob/1b4ea9d/packages/ui-identicon/src/beachball/svg/rect.ts#L7)*
+*Defined in [beachball/svg/rect.ts:7](https://github.com/polkadot-js/ui/blob/2479ac5/packages/ui-identicon/src/beachball/svg/rect.ts#L7)*
 
 **Parameters:**
 

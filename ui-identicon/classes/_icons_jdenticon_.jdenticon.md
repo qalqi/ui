@@ -300,7 +300,7 @@ ___
 
 ▸ **render**(): `Element`
 
-*Defined in [icons/Jdenticon.tsx:11](https://github.com/polkadot-js/ui/blob/1b4ea9d/packages/ui-identicon/src/icons/Jdenticon.tsx#L11)*
+*Defined in [icons/Jdenticon.tsx:11](https://github.com/polkadot-js/ui/blob/2479ac5/packages/ui-identicon/src/icons/Jdenticon.tsx#L11)*
 
 **Returns:** `Element`
 
