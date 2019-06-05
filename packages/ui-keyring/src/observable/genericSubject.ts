@@ -2,7 +2,7 @@
 // This software may be modified and distributed under the terms
 // of the Apache-2.0 license. See the LICENSE file for details.
 
-import { SubjectInfo, AddressSubject, SingleAddress } from './types';
+import { SubjectInfo, AddressSubject, SingleAddress, ObservableParams } from './types';
 import { KeyringJson, KeyringStore } from '../types';
 
 import { BehaviorSubject } from 'rxjs';
@@ -10,60 +10,74 @@ import { BehaviorSubject } from 'rxjs';
 import createOptionItem from '../options/item';
 import development from './development';
 
-function callNext (current: SubjectInfo, subject: BehaviorSubject<any>, withTest: boolean) {
+const callNext = (
+  current: SubjectInfo,
+  subject: BehaviorSubject<any>,
+  withTest: boolean,
+  params: ObservableParams = {}
+): void => {
+  const { genesisHash } = params;
   const isDevMode = development.isDevelopment();
 
   subject.next(
     Object.keys(current).reduce((filtered, key) => {
-      const { json: { meta: { isTesting = false } = {} } = {} } = current[key];
+      const { json: { meta: { contract = undefined, isTesting = false } = {} } = {} } = current[key];
 
-      if (!withTest || isDevMode || isTesting !== true) {
+      console.log({ withTest, isDevMode, genesisHash, contract });
+      if (
+        (!withTest || isDevMode || isTesting !== true) &&
+        (!genesisHash || !contract || (contract && contract.genesisHash === genesisHash))
+      ) {
         filtered[key] = current[key];
       }
 
       return filtered;
     }, {} as SubjectInfo)
   );
-}
+};
 
-export default function genericSubject (keyCreator: (address: string) => string, withTest: boolean = false): AddressSubject {
-  let current: SubjectInfo = {};
-  const subject = new BehaviorSubject({});
-  const next = (): void =>
-    callNext(current, subject, withTest);
+export default function genericSubject (keyCreator: (address: string) => string, withTest: boolean = false): (params?: ObservableParams) => AddressSubject {
+  return (params?: ObservableParams): AddressSubject => {
+    let current: SubjectInfo = {};
+    const subject = new BehaviorSubject({});
+    const next = (): void =>
+      callNext(current, subject, withTest, params);
 
-  development.subject.subscribe(next);
+    development.subject.subscribe(next);
 
-  return {
-    add: (store: KeyringStore, address: string, json: KeyringJson): SingleAddress => {
-      current = { ...current };
+    return {
+      add: (store: KeyringStore, address: string, json: KeyringJson): SingleAddress => {
+        current = { ...current };
 
-      current[address] = {
-        json: {
-          ...json,
-          address
-        },
-        option: createOptionItem(address, json.meta.name, !json.meta.isRecent)
-      };
+        current[address] = {
+          json: {
+            ...json,
+            address
+          },
+          option: createOptionItem(address, json.meta.name, !json.meta.isRecent)
+        };
 
-      const isDevMode = development.isDevelopment();
+        const isDevMode = development.isDevelopment();
 
-      if (!json.meta.isInjected && (!json.meta.isTesting || isDevMode)) {
-        store.set(keyCreator(address), json);
-      }
+        if (!json.meta.isInjected && (!json.meta.isTesting || isDevMode)) {
+          store.set(keyCreator(address), json);
+        }
 
-      next();
+        next();
 
-      return current[address];
-    },
-    remove: (store: KeyringStore, address: string) => {
-      current = { ...current };
+        console.log(current);
 
-      delete current[address];
+        return current[address];
+      },
+      remove: (store: KeyringStore, address: string) => {
+        current = { ...current };
 
-      store.remove(keyCreator(address));
-      next();
-    },
-    subject
+        delete current[address];
+
+        store.remove(keyCreator(address));
+        next();
+      },
+      subject
+    };
   };
 }

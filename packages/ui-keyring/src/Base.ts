@@ -27,9 +27,9 @@ export default class Base {
   protected _store: KeyringStore;
 
   constructor () {
-    this._accounts = accounts;
-    this._addresses = addresses;
-    this._contracts = contracts;
+    this._accounts = accounts();
+    this._addresses = addresses();
+    this._contracts = contracts();
     this._keyring = undefined;
     this._store = null as any;
   }
@@ -106,8 +106,17 @@ export default class Base {
       this.setDevMode(options.isDevelopment);
     }
 
+    const genesisHash = options.genesisHash.toHex();
+    this._genesisHash = genesisHash;
+    const observableParams = {
+      genesisHash
+    };
+
+    this._accounts = accounts(observableParams);
+    this._addresses = addresses(observableParams);
+    this._contracts = contracts(observableParams);
+
     this._keyring = keyring;
-    this._genesisHash = options.genesisHash;
     this._store = options.store || new LocalStorageStore();
 
     this.addAccountPairs();

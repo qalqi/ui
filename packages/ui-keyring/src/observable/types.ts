@@ -20,3 +20,7 @@ export type AddressSubject = {
   remove: (store: KeyringStore, address: string) => void,
   subject: BehaviorSubject<SubjectInfo>
 };
+
+export type ObservableParams = {
+  genesisHash?: string
+};

@@ -51,7 +51,9 @@ class KeyringOption implements KeyringOptionInstance {
   init (keyring: KeyringStruct): void {
     assert(!hasCalledInitOptions, 'Unable to initialise options more than once');
 
-    observableAll.subscribe(() => {
+    observableAll({
+      genesisHash: keyring.genesisHash
+    }).subscribe(() => {
       const options = this.emptyOptions();
 
       this.addAccounts(keyring, options);
@@ -75,7 +77,15 @@ class KeyringOption implements KeyringOptionInstance {
         options.address
       );
 
+      options.allPlus = ([] as KeyringSectionOptions).concat(
+        options.account,
+        options.address,
+        options.contract
+      );
+
       this.optionsSubject.next(options);
+
+      console.log(this.optionsSubject.getValue());
     });
 
     hasCalledInitOptions = true;
@@ -138,9 +148,6 @@ class KeyringOption implements KeyringOptionInstance {
 
     Object
       .values(available)
-      .filter(({ json }: SingleAddress) => {
-        return !json.meta.isRecent;
-      })
       .sort(sortByName)
       .forEach(({ option }: SingleAddress) => {
         options.contract.push(option);
@@ -151,8 +158,9 @@ class KeyringOption implements KeyringOptionInstance {
     return {
       account: [],
       address: [],
-      contract: [],
       all: [],
+      allPlus: [],
+      contract: [],
       recent: [],
       testing: []
     };
