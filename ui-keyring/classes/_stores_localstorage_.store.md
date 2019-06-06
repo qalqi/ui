@@ -16,7 +16,7 @@
 
 ▸ **all**(cb: *`function`*): `void`
 
-*Defined in [stores/LocalStorage.ts:10](https://github.com/polkadot-js/ui/blob/3fc67f1/packages/ui-keyring/src/stores/LocalStorage.ts#L10)*
+*Defined in [stores/LocalStorage.ts:10](https://github.com/polkadot-js/ui/blob/bdfbb69/packages/ui-keyring/src/stores/LocalStorage.ts#L10)*
 
 **Parameters:**
 
@@ -33,7 +33,7 @@ ___
 
 ▸ **get**(key: *`string`*, cb: *`function`*): `void`
 
-*Defined in [stores/LocalStorage.ts:16](https://github.com/polkadot-js/ui/blob/3fc67f1/packages/ui-keyring/src/stores/LocalStorage.ts#L16)*
+*Defined in [stores/LocalStorage.ts:16](https://github.com/polkadot-js/ui/blob/bdfbb69/packages/ui-keyring/src/stores/LocalStorage.ts#L16)*
 
 **Parameters:**
 
@@ -51,7 +51,7 @@ ___
 
 ▸ **remove**(key: *`string`*, cb?: *`undefined` \| `function`*): `void`
 
-*Defined in [stores/LocalStorage.ts:20](https://github.com/polkadot-js/ui/blob/3fc67f1/packages/ui-keyring/src/stores/LocalStorage.ts#L20)*
+*Defined in [stores/LocalStorage.ts:20](https://github.com/polkadot-js/ui/blob/bdfbb69/packages/ui-keyring/src/stores/LocalStorage.ts#L20)*
 
 **Parameters:**
 
@@ -69,7 +69,7 @@ ___
 
 ▸ **set**(key: *`string`*, value: *`any`*, cb?: *`undefined` \| `function`*): `void`
 
-*Defined in [stores/LocalStorage.ts:25](https://github.com/polkadot-js/ui/blob/3fc67f1/packages/ui-keyring/src/stores/LocalStorage.ts#L25)*
+*Defined in [stores/LocalStorage.ts:25](https://github.com/polkadot-js/ui/blob/bdfbb69/packages/ui-keyring/src/stores/LocalStorage.ts#L25)*
 
 **Parameters:**
 

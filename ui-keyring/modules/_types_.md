@@ -9,6 +9,7 @@
 
 ### Type aliases
 
+* [ContractMeta](_types_.md#contractmeta)
 * [CreateResult](_types_.md#createresult)
 * [KeyringAddress](_types_.md#keyringaddress)
 * [KeyringJson](_types_.md#keyringjson)
@@ -19,13 +20,24 @@
 
 # Type aliases
 
+<a id="contractmeta"></a>
+
+##  ContractMeta
+
+**Ƭ ContractMeta**: *`object`*
+
+*Defined in [types.ts:10](https://github.com/polkadot-js/ui/blob/bdfbb69/packages/ui-keyring/src/types.ts#L10)*
+
+#### Type declaration
+
+___
 <a id="createresult"></a>
 
 ##  CreateResult
 
 **Ƭ CreateResult**: *`object`*
 
-*Defined in [types.ts:44](https://github.com/polkadot-js/ui/blob/3fc67f1/packages/ui-keyring/src/types.ts#L44)*
+*Defined in [types.ts:53](https://github.com/polkadot-js/ui/blob/bdfbb69/packages/ui-keyring/src/types.ts#L53)*
 
 #### Type declaration
 
@@ -36,7 +48,7 @@ ___
 
 **Ƭ KeyringAddress**: *`object`*
 
-*Defined in [types.ts:37](https://github.com/polkadot-js/ui/blob/3fc67f1/packages/ui-keyring/src/types.ts#L37)*
+*Defined in [types.ts:46](https://github.com/polkadot-js/ui/blob/bdfbb69/packages/ui-keyring/src/types.ts#L46)*
 
 #### Type declaration
 
@@ -47,7 +59,7 @@ ___
 
 **Ƭ KeyringJson**: *`object`*
 
-*Defined in [types.ts:32](https://github.com/polkadot-js/ui/blob/3fc67f1/packages/ui-keyring/src/types.ts#L32)*
+*Defined in [types.ts:41](https://github.com/polkadot-js/ui/blob/bdfbb69/packages/ui-keyring/src/types.ts#L41)*
 
 #### Type declaration
 
@@ -58,7 +70,7 @@ ___
 
 **Ƭ KeyringJson$Meta**: *`object`*
 
-*Defined in [types.ts:21](https://github.com/polkadot-js/ui/blob/3fc67f1/packages/ui-keyring/src/types.ts#L21)*
+*Defined in [types.ts:29](https://github.com/polkadot-js/ui/blob/bdfbb69/packages/ui-keyring/src/types.ts#L29)*
 
 #### Type declaration
 
@@ -71,7 +83,7 @@ ___
 
 **Ƭ KeyringOptions**: *`KeyringOptionsBase` & `object`*
 
-*Defined in [types.ts:16](https://github.com/polkadot-js/ui/blob/3fc67f1/packages/ui-keyring/src/types.ts#L16)*
+*Defined in [types.ts:22](https://github.com/polkadot-js/ui/blob/bdfbb69/packages/ui-keyring/src/types.ts#L22)*
 
 ___
 

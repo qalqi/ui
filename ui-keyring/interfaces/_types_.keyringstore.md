@@ -16,7 +16,7 @@
 
 **● all**: *`function`*
 
-*Defined in [types.ts:10](https://github.com/polkadot-js/ui/blob/3fc67f1/packages/ui-keyring/src/types.ts#L10)*
+*Defined in [types.ts:16](https://github.com/polkadot-js/ui/blob/bdfbb69/packages/ui-keyring/src/types.ts#L16)*
 
 #### Type declaration
 ▸(cb: *`function`*): `void`
@@ -36,7 +36,7 @@ ___
 
 **● get**: *`function`*
 
-*Defined in [types.ts:11](https://github.com/polkadot-js/ui/blob/3fc67f1/packages/ui-keyring/src/types.ts#L11)*
+*Defined in [types.ts:17](https://github.com/polkadot-js/ui/blob/bdfbb69/packages/ui-keyring/src/types.ts#L17)*
 
 #### Type declaration
 ▸(key: *`string`*, cb: *`function`*): `void`
@@ -57,7 +57,7 @@ ___
 
 **● remove**: *`function`*
 
-*Defined in [types.ts:12](https://github.com/polkadot-js/ui/blob/3fc67f1/packages/ui-keyring/src/types.ts#L12)*
+*Defined in [types.ts:18](https://github.com/polkadot-js/ui/blob/bdfbb69/packages/ui-keyring/src/types.ts#L18)*
 
 #### Type declaration
 ▸(key: *`string`*, cb?: *`undefined` \| `function`*): `void`
@@ -78,7 +78,7 @@ ___
 
 **● set**: *`function`*
 
-*Defined in [types.ts:13](https://github.com/polkadot-js/ui/blob/3fc67f1/packages/ui-keyring/src/types.ts#L13)*
+*Defined in [types.ts:19](https://github.com/polkadot-js/ui/blob/bdfbb69/packages/ui-keyring/src/types.ts#L19)*
 
 #### Type declaration
 ▸(key: *`string`*, value: *`any`*, cb?: *`undefined` \| `function`*): `void`

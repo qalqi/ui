@@ -5,6 +5,7 @@
 * [&quot;defaults&quot;](modules/_defaults_.md)
 * [&quot;observable/accounts&quot;](modules/_observable_accounts_.md)
 * [&quot;observable/addresses&quot;](modules/_observable_addresses_.md)
+* [&quot;observable/contracts&quot;](modules/_observable_contracts_.md)
 * [&quot;observable/development&quot;](modules/_observable_development_.md)
 * [&quot;observable/genericSubject&quot;](modules/_observable_genericsubject_.md)
 * [&quot;observable/types&quot;](modules/_observable_types_.md)

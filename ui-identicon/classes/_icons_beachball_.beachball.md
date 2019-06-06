@@ -300,7 +300,7 @@ ___
 
 ▸ **render**(): `Element`
 
-*Defined in [icons/Beachball.tsx:12](https://github.com/polkadot-js/ui/blob/3fc67f1/packages/ui-identicon/src/icons/Beachball.tsx#L12)*
+*Defined in [icons/Beachball.tsx:12](https://github.com/polkadot-js/ui/blob/bdfbb69/packages/ui-identicon/src/icons/Beachball.tsx#L12)*
 
 **Returns:** `Element`
 
