@@ -8,7 +8,7 @@
 
 ▸ **element**(size: *`number`*, type?: *`string`*, x?: *`number`*, y?: *`number`*): `Element`
 
-*Defined in [beachball/svg/element.ts:8](https://github.com/polkadot-js/ui/blob/8c2d0fa/packages/ui-identicon/src/beachball/svg/element.ts#L8)*
+*Defined in [beachball/svg/element.ts:8](https://github.com/polkadot-js/ui/blob/3fc67f1/packages/ui-identicon/src/beachball/svg/element.ts#L8)*
 
 **Parameters:**
 
