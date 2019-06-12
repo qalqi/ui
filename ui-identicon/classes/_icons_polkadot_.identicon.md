@@ -300,7 +300,7 @@ ___
 
 ▸ **render**(): `Element`
 
-*Defined in [icons/Polkadot.tsx:53](https://github.com/polkadot-js/ui/blob/c2e3d5f/packages/ui-identicon/src/icons/Polkadot.tsx#L53)*
+*Defined in [icons/Polkadot.tsx:52](https://github.com/polkadot-js/ui/blob/0acf952/packages/ui-identicon/src/icons/Polkadot.tsx#L52)*
 
 **Returns:** `Element`
 
