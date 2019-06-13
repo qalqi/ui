@@ -301,7 +301,7 @@ ___
 
 ▸ **render**(): `Element`[]
 
-*Defined in [Demo.tsx:12](https://github.com/polkadot-js/ui/blob/0acf952/packages/ui-identicon/src/Demo.tsx#L12)*
+*Defined in [Demo.tsx:12](https://github.com/polkadot-js/ui/blob/b26a0ef/packages/ui-identicon/src/Demo.tsx#L12)*
 
 **Returns:** `Element`[]
 
