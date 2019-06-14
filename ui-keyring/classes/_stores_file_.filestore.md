@@ -16,7 +16,7 @@
 
 ⊕ **new FileStore**(path: *`string`*): [FileStore](_stores_file_.filestore.md)
 
-*Defined in [stores/File.ts:13](https://github.com/polkadot-js/ui/blob/b26a0ef/packages/ui-keyring/src/stores/File.ts#L13)*
+*Defined in [stores/File.ts:13](https://github.com/polkadot-js/ui/blob/0f76fb6/packages/ui-keyring/src/stores/File.ts#L13)*
 
 **Parameters:**
 
@@ -36,7 +36,7 @@ ___
 
 ▸ **all**(cb: *`function`*): `void`
 
-*Defined in [stores/File.ts:23](https://github.com/polkadot-js/ui/blob/b26a0ef/packages/ui-keyring/src/stores/File.ts#L23)*
+*Defined in [stores/File.ts:23](https://github.com/polkadot-js/ui/blob/0f76fb6/packages/ui-keyring/src/stores/File.ts#L23)*
 
 **Parameters:**
 
@@ -53,7 +53,7 @@ ___
 
 ▸ **get**(key: *`string`*, cb: *`function`*): `void`
 
-*Defined in [stores/File.ts:30](https://github.com/polkadot-js/ui/blob/b26a0ef/packages/ui-keyring/src/stores/File.ts#L30)*
+*Defined in [stores/File.ts:30](https://github.com/polkadot-js/ui/blob/0f76fb6/packages/ui-keyring/src/stores/File.ts#L30)*
 
 **Parameters:**
 
@@ -71,7 +71,7 @@ ___
 
 ▸ **remove**(key: *`string`*, cb?: *`undefined` \| `function`*): `void`
 
-*Defined in [stores/File.ts:34](https://github.com/polkadot-js/ui/blob/b26a0ef/packages/ui-keyring/src/stores/File.ts#L34)*
+*Defined in [stores/File.ts:34](https://github.com/polkadot-js/ui/blob/0f76fb6/packages/ui-keyring/src/stores/File.ts#L34)*
 
 **Parameters:**
 
@@ -89,7 +89,7 @@ ___
 
 ▸ **set**(key: *`string`*, value: *`any`*, cb?: *`undefined` \| `function`*): `void`
 
-*Defined in [stores/File.ts:39](https://github.com/polkadot-js/ui/blob/b26a0ef/packages/ui-keyring/src/stores/File.ts#L39)*
+*Defined in [stores/File.ts:39](https://github.com/polkadot-js/ui/blob/0f76fb6/packages/ui-keyring/src/stores/File.ts#L39)*
 
 **Parameters:**
 
