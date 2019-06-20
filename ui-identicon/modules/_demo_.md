@@ -1,10 +1,7 @@
+> # External module: "Demo"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [Demo](../classes/_demo_.demo.md)
-
----
-

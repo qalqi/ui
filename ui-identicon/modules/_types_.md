@@ -1,34 +1,37 @@
+> # External module: "types"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="baseprops"></a>
+* [BaseProps](_types_.md#baseprops)
+* [IdentityProps](_types_.md#identityprops)
+* [Props](_types_.md#props)
 
-##  BaseProps
+## Type aliases
 
-**Ƭ BaseProps**: *`object`*
+###  BaseProps
 
-*Defined in [types.ts:7](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/types.ts#L7)*
+Ƭ **BaseProps**: *object*
 
-#### Type declaration
+*Defined in [types.ts:7](url)*
 
-___
-<a id="identityprops"></a>
-
-##  IdentityProps
-
-**Ƭ IdentityProps**: *[BaseProps](_types_.md#baseprops) & `object`*
-
-*Defined in [types.ts:20](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/types.ts#L20)*
-
-___
-<a id="props"></a>
-
-##  Props
-
-**Ƭ Props**: *[BaseProps](_types_.md#baseprops) & `object`*
-
-*Defined in [types.ts:14](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/types.ts#L14)*
+#### Type declaration:
 
 ___
 
+###  IdentityProps
+
+Ƭ **IdentityProps**: *[BaseProps](_types_.md#baseprops) & object*
+
+*Defined in [types.ts:20](url)*
+
+___
+
+###  Props
+
+Ƭ **Props**: *[BaseProps](_types_.md#baseprops) & object*
+
+*Defined in [types.ts:14](url)*
+
+___

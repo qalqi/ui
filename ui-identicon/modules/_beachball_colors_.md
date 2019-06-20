@@ -1,22 +1,25 @@
+> # External module: "beachball/colors"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="colors"></a>
+* [colors](_beachball_colors_.md#colors)
 
-##  colors
+## Functions
 
-▸ **colors**(seeder: *[Seeder](_beachball_types_.md#seeder)*): [ColorGen](_beachball_types_.md#colorgen)
+###  colors
 
-*Defined in [beachball/colors.ts:14](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/beachball/colors.ts#L14)*
+▸ **colors**(`seeder`: [Seeder](_beachball_types_.md#seeder)): *[ColorGen](_beachball_types_.md#colorgen)*
+
+*Defined in [beachball/colors.ts:14](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| seeder | [Seeder](_beachball_types_.md#seeder) |
+Name | Type |
+------ | ------ |
+`seeder` | [Seeder](_beachball_types_.md#seeder) |
 
-**Returns:** [ColorGen](_beachball_types_.md#colorgen)
+**Returns:** *[ColorGen](_beachball_types_.md#colorgen)*
 
 ___
-

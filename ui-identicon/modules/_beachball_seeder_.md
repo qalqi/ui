@@ -1,22 +1,25 @@
+> # External module: "beachball/seeder"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="seeder"></a>
+* [seeder](_beachball_seeder_.md#seeder)
 
-##  seeder
+## Functions
 
-▸ **seeder**(_seed?: *`string` \| `Uint8Array`*): [Seeder](_beachball_types_.md#seeder)
+###  seeder
 
-*Defined in [beachball/seeder.ts:11](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/beachball/seeder.ts#L11)*
+▸ **seeder**(`_seed`: string | `Uint8Array`): *[Seeder](_beachball_types_.md#seeder)*
+
+*Defined in [beachball/seeder.ts:11](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` _seed | `string` \| `Uint8Array` |  new Uint8Array(32) |
+Name | Type | Default |
+------ | ------ | ------ |
+`_seed` | string \| `Uint8Array` |  new Uint8Array(32) |
 
-**Returns:** [Seeder](_beachball_types_.md#seeder)
+**Returns:** *[Seeder](_beachball_types_.md#seeder)*
 
 ___
-

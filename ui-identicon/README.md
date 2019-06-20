@@ -1,11 +1,8 @@
-
-@polkadot/ui-identicon
-======================
+# @polkadot/ui-identicon
 
 A generic identity icon that can render icons based on the theme, be it Substrate or Polkadot
 
-Usage Examples
---------------
+## Usage Examples
 
 To install the component, do `yarn add @polkadot/ui-identicon`
 
@@ -16,23 +13,22 @@ import Identicon from '@polkadot/ui-identicon';
 
 ...
 render () {
-  // address is an ss58-encoded address or publicKey (hex string or Uint8Array)
-  const { address } = this.props;
-  // size (optional) is a number, indicating the size (in pixels, 64 as default)
-  const size = 32;
-  // theme (optional), depicts the type of icon, one of
-  // 'polkadot', 'substrate' (default), 'beachball' or 'jdenticon'
-  const theme = 'polkadot';
+// address is an ss58-encoded address or publicKey (hex string or Uint8Array)
+const { address } = this.props;
+// size (optional) is a number, indicating the size (in pixels, 64 as default)
+const size = 32;
+// theme (optional), depicts the type of icon, one of
+// 'polkadot', 'substrate' (default), 'beachball' or 'jdenticon'
+const theme = 'polkadot';
 
-  // standard className & style props are also available
-  return (
-    <Identicon
-      value={address}
-      size={size}
-      theme={theme}
-    />
-  );
+// standard className & style props are also available
+return (
+<Identicon
+value={address}
+size={size}
+theme={theme}
+/>
+);
 }
 ...
 ```
-

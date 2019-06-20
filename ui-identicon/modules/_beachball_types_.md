@@ -1,39 +1,40 @@
+> # External module: "beachball/types"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="colorgen"></a>
+* [ColorGen](_beachball_types_.md#colorgen)
+* [Seeder](_beachball_types_.md#seeder)
 
-##  ColorGen
+## Type aliases
 
-**Ƭ ColorGen**: *`function`*
+###  ColorGen
 
-*Defined in [beachball/types.ts:7](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/beachball/types.ts#L7)*
+Ƭ **ColorGen**: *function*
 
-#### Type declaration
-▸(alpha?: *`undefined` \| `number`*): `string`
+*Defined in [beachball/types.ts:7](url)*
+
+#### Type declaration:
+
+▸ (`alpha?`: undefined | number): *string*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` alpha | `undefined` \| `number` |
-
-**Returns:** `string`
-
-___
-<a id="seeder"></a>
-
-##  Seeder
-
-**Ƭ Seeder**: *`function`*
-
-*Defined in [beachball/types.ts:5](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/beachball/types.ts#L5)*
-
-#### Type declaration
-▸(): `number`
-
-**Returns:** `number`
+Name | Type |
+------ | ------ |
+`alpha?` | undefined \| number |
 
 ___
 
+###  Seeder
+
+Ƭ **Seeder**: *function*
+
+*Defined in [beachball/types.ts:5](url)*
+
+#### Type declaration:
+
+▸ (): *number*
+
+___

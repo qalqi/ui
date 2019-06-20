@@ -1,10 +1,7 @@
+> # External module: "icons/Jdenticon"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [Jdenticon](../classes/_icons_jdenticon_.jdenticon.md)
-
----
-

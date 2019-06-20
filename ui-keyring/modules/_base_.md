@@ -1,10 +1,7 @@
+> # External module: "Base"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [Base](../classes/_base_.base.md)
-
----
-

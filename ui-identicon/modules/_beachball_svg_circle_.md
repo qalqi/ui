@@ -1,24 +1,27 @@
+> # External module: "beachball/svg/circle"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="circle"></a>
+* [circle](_beachball_svg_circle_.md#circle)
 
-##  circle
+## Functions
 
-▸ **circle**(r: *`number`*, cx: *`number`*, cy: *`number`*): `Element`
+###  circle
 
-*Defined in [beachball/svg/circle.ts:7](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/beachball/svg/circle.ts#L7)*
+▸ **circle**(`r`: number, `cx`: number, `cy`: number): *`Element`*
+
+*Defined in [beachball/svg/circle.ts:7](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| r | `number` |
-| cx | `number` |
-| cy | `number` |
+Name | Type |
+------ | ------ |
+`r` | number |
+`cx` | number |
+`cy` | number |
 
-**Returns:** `Element`
+**Returns:** *`Element`*
 
 ___
-

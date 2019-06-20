@@ -1,214 +1,221 @@
+> # Class: Base
 
+## Hierarchy
 
-# Hierarchy
+* **Base**
 
-**Base**
+  * [Keyring](_keyring_.keyring.md)
 
-↳  [Keyring](_keyring_.keyring.md)
+### Index
 
-# Constructors
+#### Constructors
 
-<a id="constructor"></a>
+* [constructor](_base_.base.md#constructor)
 
-##  constructor
+#### Accessors
 
-⊕ **new Base**(): [Base](_base_.base.md)
+* [accounts](_base_.base.md#accounts)
+* [addresses](_base_.base.md#addresses)
+* [contracts](_base_.base.md#contracts)
+* [genesisHash](_base_.base.md#genesishash)
+* [keyring](_base_.base.md#keyring)
 
-*Defined in [Base.ts:27](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/Base.ts#L27)*
+#### Methods
 
-**Returns:** [Base](_base_.base.md)
+* [decodeAddress](_base_.base.md#decodeaddress)
+* [encodeAddress](_base_.base.md#encodeaddress)
+* [getPair](_base_.base.md#getpair)
+* [getPairs](_base_.base.md#getpairs)
+* [isAvailable](_base_.base.md#isavailable)
+* [isPassValid](_base_.base.md#ispassvalid)
+* [setAddressPrefix](_base_.base.md#setaddressprefix)
+* [setDevMode](_base_.base.md#setdevmode)
 
-___
+## Constructors
 
-# Accessors
+###  constructor
 
-<a id="accounts"></a>
+\+ **new Base**(): *[Base](_base_.base.md)*
 
-##  accounts
+*Defined in [Base.ts:27](url)*
 
-**get accounts**(): `object`
-
-*Defined in [Base.ts:37](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/Base.ts#L37)*
-
-**Returns:** `object`
-
-___
-<a id="addresses"></a>
-
-##  addresses
-
-**get addresses**(): `object`
-
-*Defined in [Base.ts:41](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/Base.ts#L41)*
-
-**Returns:** `object`
-
-___
-<a id="contracts"></a>
-
-##  contracts
-
-**get contracts**(): `object`
-
-*Defined in [Base.ts:45](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/Base.ts#L45)*
-
-**Returns:** `object`
-
-___
-<a id="genesishash"></a>
-
-##  genesisHash
-
-**get genesisHash**(): `undefined` \| `string`
-
-*Defined in [Base.ts:57](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/Base.ts#L57)*
-
-**Returns:** `undefined` \| `string`
-
-___
-<a id="keyring"></a>
-
-##  keyring
-
-**get keyring**(): `KeyringInstance`
-
-*Defined in [Base.ts:49](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/Base.ts#L49)*
-
-**Returns:** `KeyringInstance`
+**Returns:** *[Base](_base_.base.md)*
 
 ___
 
-# Methods
+## Accessors
 
-<a id="decodeaddress"></a>
+###  accounts
 
-##  decodeAddress
+● **get accounts**(): *object*
 
-▸ **decodeAddress**(key: *`string` \| `Uint8Array`*, ignoreChecksum?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+*Defined in [Base.ts:37](url)*
 
-*Defined in [Base.ts:61](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/Base.ts#L61)*
+**Returns:** *object*
+
+___
+
+###  addresses
+
+● **get addresses**(): *object*
+
+*Defined in [Base.ts:41](url)*
+
+**Returns:** *object*
+
+___
+
+###  contracts
+
+● **get contracts**(): *object*
+
+*Defined in [Base.ts:45](url)*
+
+**Returns:** *object*
+
+___
+
+###  genesisHash
+
+● **get genesisHash**(): *undefined | string*
+
+*Defined in [Base.ts:57](url)*
+
+**Returns:** *undefined | string*
+
+___
+
+###  keyring
+
+● **get keyring**(): *`KeyringInstance`*
+
+*Defined in [Base.ts:49](url)*
+
+**Returns:** *`KeyringInstance`*
+
+___
+
+## Methods
+
+###  decodeAddress
+
+▸ **decodeAddress**(`key`: string | `Uint8Array`, `ignoreChecksum?`: undefined | false | true): *`Uint8Array`*
+
+*Defined in [Base.ts:61](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `string` \| `Uint8Array` |
-| `Optional` ignoreChecksum | `undefined` \| `false` \| `true` |
+Name | Type |
+------ | ------ |
+`key` | string \| `Uint8Array` |
+`ignoreChecksum?` | undefined \| false \| true |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-<a id="encodeaddress"></a>
 
-##  encodeAddress
+###  encodeAddress
 
-▸ **encodeAddress**(key: *`string` \| `Uint8Array`*): `string`
+▸ **encodeAddress**(`key`: string | `Uint8Array`): *string*
 
-*Defined in [Base.ts:65](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/Base.ts#L65)*
+*Defined in [Base.ts:65](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `string` \| `Uint8Array` |
+Name | Type |
+------ | ------ |
+`key` | string \| `Uint8Array` |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="getpair"></a>
 
-##  getPair
+###  getPair
 
-▸ **getPair**(address: *`string` \| `Uint8Array`*): `KeyringPair`
+▸ **getPair**(`address`: string | `Uint8Array`): *`KeyringPair`*
 
-*Defined in [Base.ts:69](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/Base.ts#L69)*
+*Defined in [Base.ts:69](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| address | `string` \| `Uint8Array` |
+Name | Type |
+------ | ------ |
+`address` | string \| `Uint8Array` |
 
-**Returns:** `KeyringPair`
-
-___
-<a id="getpairs"></a>
-
-##  getPairs
-
-▸ **getPairs**(): `Array`<`KeyringPair`>
-
-*Defined in [Base.ts:73](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/Base.ts#L73)*
-
-**Returns:** `Array`<`KeyringPair`>
+**Returns:** *`KeyringPair`*
 
 ___
-<a id="isavailable"></a>
 
-##  isAvailable
+###  getPairs
 
-▸ **isAvailable**(_address: *`Uint8Array` \| `string`*): `boolean`
+▸ **getPairs**(): *`Array<KeyringPair>`*
 
-*Defined in [Base.ts:79](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/Base.ts#L79)*
+*Defined in [Base.ts:73](url)*
+
+**Returns:** *`Array<KeyringPair>`*
+
+___
+
+###  isAvailable
+
+▸ **isAvailable**(`_address`: `Uint8Array` | string): *boolean*
+
+*Defined in [Base.ts:79](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| _address | `Uint8Array` \| `string` |
+Name | Type |
+------ | ------ |
+`_address` | `Uint8Array` \| string |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="ispassvalid"></a>
 
-##  isPassValid
+###  isPassValid
 
-▸ **isPassValid**(password: *`string`*): `boolean`
+▸ **isPassValid**(`password`: string): *boolean*
 
-*Defined in [Base.ts:90](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/Base.ts#L90)*
+*Defined in [Base.ts:90](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| password | `string` |
+Name | Type |
+------ | ------ |
+`password` | string |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="setaddressprefix"></a>
 
-##  setAddressPrefix
+###  setAddressPrefix
 
-▸ **setAddressPrefix**(prefix: *`number`*): `void`
+▸ **setAddressPrefix**(`prefix`: number): *void*
 
-*Defined in [Base.ts:94](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/Base.ts#L94)*
+*Defined in [Base.ts:94](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| prefix | `number` |
+Name | Type |
+------ | ------ |
+`prefix` | number |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="setdevmode"></a>
 
-##  setDevMode
+###  setDevMode
 
-▸ **setDevMode**(isDevelopment: *`boolean`*): `void`
+▸ **setDevMode**(`isDevelopment`: boolean): *void*
 
-*Defined in [Base.ts:98](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/Base.ts#L98)*
+*Defined in [Base.ts:98](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| isDevelopment | `boolean` |
+Name | Type |
+------ | ------ |
+`isDevelopment` | boolean |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-

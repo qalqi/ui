@@ -1,10 +1,7 @@
+> # External module: "Settings"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [Settings](../classes/_settings_.settings.md)
-
----
-

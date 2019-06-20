@@ -1,23 +1,33 @@
+> # External module: "observable/genericSubject"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="genericsubject"></a>
+* [genericSubject](_observable_genericsubject_.md#genericsubject)
 
-##  genericSubject
+## Functions
 
-▸ **genericSubject**(keyCreator: *`function`*, withTest?: *`boolean`*): [AddressSubject](_observable_types_.md#addresssubject)
+###  genericSubject
 
-*Defined in [observable/genericSubject.ts:29](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/observable/genericSubject.ts#L29)*
+▸ **genericSubject**(`keyCreator`: function, `withTest`: boolean): *[AddressSubject](_observable_types_.md#addresssubject)*
+
+*Defined in [observable/genericSubject.ts:29](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| keyCreator | `function` | - |
-| `Default value` withTest | `boolean` | false |
+■` keyCreator`: *function*
 
-**Returns:** [AddressSubject](_observable_types_.md#addresssubject)
+▸ (`address`: string): *string*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`address` | string |
+
+■`Default value` ` withTest`: *boolean*= false
+
+**Returns:** *[AddressSubject](_observable_types_.md#addresssubject)*
 
 ___
-

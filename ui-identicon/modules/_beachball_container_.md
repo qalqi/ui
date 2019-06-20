@@ -1,25 +1,28 @@
+> # External module: "beachball/container"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="container"></a>
+* [container](_beachball_container_.md#container)
 
-##  container
+## Functions
 
-▸ **container**(diameter: *`number`*, background?: *`string`*, className?: *`string`*, _style?: *`object`*): `HTMLElement`
+###  container
 
-*Defined in [beachball/container.ts:6](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/beachball/container.ts#L6)*
+▸ **container**(`diameter`: number, `background`: string, `className`: string, `_style`: object): *`HTMLElement`*
+
+*Defined in [beachball/container.ts:6](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| diameter | `number` | - |
-| `Default value` background | `string` | &quot;white&quot; |
-| `Default value` className | `string` | &quot;&quot; |
-| `Default value` _style | `object` |  {} |
+Name | Type | Default |
+------ | ------ | ------ |
+`diameter` | number | - |
+`background` | string | "white" |
+`className` | string | "" |
+`_style` | object |  {} |
 
-**Returns:** `HTMLElement`
+**Returns:** *`HTMLElement`*
 
 ___
-

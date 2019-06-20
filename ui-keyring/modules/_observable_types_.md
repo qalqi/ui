@@ -1,40 +1,43 @@
+> # External module: "observable/types"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="addresssubject"></a>
+* [AddressSubject](_observable_types_.md#addresssubject)
+* [SingleAddress](_observable_types_.md#singleaddress)
+* [SubjectInfo](_observable_types_.md#subjectinfo)
 
-##  AddressSubject
+## Type aliases
 
-**Ƭ AddressSubject**: *`object`*
+###  AddressSubject
 
-*Defined in [observable/types.ts:18](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/observable/types.ts#L18)*
+Ƭ **AddressSubject**: *object*
 
-#### Type declaration
+*Defined in [observable/types.ts:18](url)*
 
-___
-<a id="singleaddress"></a>
-
-##  SingleAddress
-
-**Ƭ SingleAddress**: *`object`*
-
-*Defined in [observable/types.ts:9](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/observable/types.ts#L9)*
-
-#### Type declaration
-
-___
-<a id="subjectinfo"></a>
-
-##  SubjectInfo
-
-**Ƭ SubjectInfo**: *`object`*
-
-*Defined in [observable/types.ts:14](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/observable/types.ts#L14)*
-
-#### Type declaration
-
-[index: `string`]: [SingleAddress](_observable_types_.md#singleaddress)
+#### Type declaration:
 
 ___
 
+###  SingleAddress
+
+Ƭ **SingleAddress**: *object*
+
+*Defined in [observable/types.ts:9](url)*
+
+#### Type declaration:
+
+___
+
+###  SubjectInfo
+
+Ƭ **SubjectInfo**: *object*
+
+*Defined in [observable/types.ts:14](url)*
+
+#### Type declaration:
+
+● \[■&#x60; index&#x60;: *string*\]: [SingleAddress](_observable_types_.md#singleaddress)
+
+___

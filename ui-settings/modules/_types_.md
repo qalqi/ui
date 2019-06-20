@@ -1,26 +1,21 @@
+> # External module: "types"
 
+### Index
 
-# Index
-
-### Interfaces
+#### Interfaces
 
 * [SettingsStruct](../interfaces/_types_.settingsstruct.md)
 
-### Type aliases
+#### Type aliases
 
 * [Options](_types_.md#options)
 
----
+## Type aliases
 
-# Type aliases
+###  Options
 
-<a id="options"></a>
+Ƭ **Options**: *`Array<object>`*
 
-##  Options
-
-**Ƭ Options**: *`Array`<`object`>*
-
-*Defined in [types.ts:5](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-settings/src/types.ts#L5)*
+*Defined in [types.ts:5](url)*
 
 ___
-

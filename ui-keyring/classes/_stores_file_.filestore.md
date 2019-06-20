@@ -1,105 +1,124 @@
+> # Class: FileStore
 
+## Hierarchy
 
-# Hierarchy
+* **FileStore**
 
-**FileStore**
-
-# Implements
+## Implements
 
 * [KeyringStore](../interfaces/_types_.keyringstore.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_stores_file_.filestore.md#constructor)
 
-⊕ **new FileStore**(path: *`string`*): [FileStore](_stores_file_.filestore.md)
+#### Methods
 
-*Defined in [stores/File.ts:13](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/stores/File.ts#L13)*
+* [all](_stores_file_.filestore.md#all)
+* [get](_stores_file_.filestore.md#get)
+* [remove](_stores_file_.filestore.md#remove)
+* [set](_stores_file_.filestore.md#set)
 
-**Parameters:**
+## Constructors
 
-| Name | Type |
-| ------ | ------ |
-| path | `string` |
+###  constructor
 
-**Returns:** [FileStore](_stores_file_.filestore.md)
+\+ **new FileStore**(`path`: string): *[FileStore](_stores_file_.filestore.md)*
 
-___
-
-# Methods
-
-<a id="all"></a>
-
-##  all
-
-▸ **all**(cb: *`function`*): `void`
-
-*Defined in [stores/File.ts:23](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/stores/File.ts#L23)*
+*Defined in [stores/File.ts:13](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| cb | `function` |
+Name | Type |
+------ | ------ |
+`path` | string |
 
-**Returns:** `void`
+**Returns:** *[FileStore](_stores_file_.filestore.md)*
 
 ___
-<a id="get"></a>
 
-##  get
+## Methods
 
-▸ **get**(key: *`string`*, cb: *`function`*): `void`
+###  all
 
-*Defined in [stores/File.ts:30](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/stores/File.ts#L30)*
+▸ **all**(`cb`: function): *void*
+
+*Defined in [stores/File.ts:23](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `string` |
-| cb | `function` |
+■` cb`: *function*
 
-**Returns:** `void`
-
-___
-<a id="remove"></a>
-
-##  remove
-
-▸ **remove**(key: *`string`*, cb?: *`undefined` \| `function`*): `void`
-
-*Defined in [stores/File.ts:34](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/stores/File.ts#L34)*
+▸ (`key`: string, `value`: any): *void*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `string` |
-| `Optional` cb | `undefined` \| `function` |
+Name | Type |
+------ | ------ |
+`key` | string |
+`value` | any |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="set"></a>
 
-##  set
+###  get
 
-▸ **set**(key: *`string`*, value: *`any`*, cb?: *`undefined` \| `function`*): `void`
+▸ **get**(`key`: string, `cb`: function): *void*
 
-*Defined in [stores/File.ts:39](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/stores/File.ts#L39)*
+*Defined in [stores/File.ts:30](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `string` |
-| value | `any` |
-| `Optional` cb | `undefined` \| `function` |
+■` key`: *string*
 
-**Returns:** `void`
+■` cb`: *function*
+
+▸ (`value`: any): *void*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`value` | any |
+
+**Returns:** *void*
 
 ___
 
+###  remove
+
+▸ **remove**(`key`: string, `cb?`: undefined | function): *void*
+
+*Defined in [stores/File.ts:34](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`key` | string |
+`cb?` | undefined \| function |
+
+**Returns:** *void*
+
+___
+
+###  set
+
+▸ **set**(`key`: string, `value`: any, `cb?`: undefined | function): *void*
+
+*Defined in [stores/File.ts:39](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`key` | string |
+`value` | any |
+`cb?` | undefined \| function |
+
+**Returns:** *void*
+
+___

@@ -1,10 +1,7 @@
+> # External module: "options/KeyPair"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [KeyPair](../classes/_options_keypair_.keypair.md)
-
----
-

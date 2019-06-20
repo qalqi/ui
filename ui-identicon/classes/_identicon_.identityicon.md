@@ -1,83 +1,110 @@
+> # Class: IdentityIcon <**SS**>
 
+## Type parameters
 
-# Type parameters
-#### SS 
-# Hierarchy
+■` SS`
 
- `PureComponent`<[Props](../modules/_types_.md#props), `State`>
+## Hierarchy
 
-**↳ IdentityIcon**
+* `PureComponent<Props, State>`
 
-# Methods
+  * **IdentityIcon**
 
-<a id="unsafe_componentwillmount"></a>
+### Index
 
-## `<Optional>` UNSAFE_componentWillMount
+#### Methods
 
-▸ **UNSAFE_componentWillMount**(): `void`
+* [UNSAFE_componentWillMount](_identicon_.identityicon.md#optional-unsafe_componentwillmount)
+* [UNSAFE_componentWillReceiveProps](_identicon_.identityicon.md#optional-unsafe_componentwillreceiveprops)
+* [UNSAFE_componentWillUpdate](_identicon_.identityicon.md#optional-unsafe_componentwillupdate)
+* [componentDidCatch](_identicon_.identityicon.md#optional-componentdidcatch)
+* [componentDidMount](_identicon_.identityicon.md#optional-componentdidmount)
+* [componentDidUpdate](_identicon_.identityicon.md#optional-componentdidupdate)
+* [componentWillMount](_identicon_.identityicon.md#optional-componentwillmount)
+* [componentWillReceiveProps](_identicon_.identityicon.md#optional-componentwillreceiveprops)
+* [componentWillUnmount](_identicon_.identityicon.md#optional-componentwillunmount)
+* [componentWillUpdate](_identicon_.identityicon.md#optional-componentwillupdate)
+* [getSnapshotBeforeUpdate](_identicon_.identityicon.md#optional-getsnapshotbeforeupdate)
+* [render](_identicon_.identityicon.md#render)
+* [shouldComponentUpdate](_identicon_.identityicon.md#optional-shouldcomponentupdate)
+* [getDerivedStateFromProps](_identicon_.identityicon.md#static-getderivedstatefromprops)
+* [setDefaultPrefix](_identicon_.identityicon.md#static-setdefaultprefix)
 
-*Inherited from DeprecatedLifecycle.UNSAFE_componentWillMount*
+#### Object literals
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:647*
+* [state](_identicon_.identityicon.md#state)
 
-Called immediately before mounting occurs, and before `Component#render`. Avoid introducing any side-effects or subscriptions in this method.
+## Methods
+
+### `Optional` UNSAFE_componentWillMount
+
+▸ **UNSAFE_componentWillMount**(): *void*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:647
+
+Called immediately before mounting occurs, and before `Component#render`.
+Avoid introducing any side-effects or subscriptions in this method.
 
 This method will not stop working in React 17.
 
-Note: the presence of getSnapshotBeforeUpdate or getDerivedStateFromProps prevents this from being invoked.
+Note: the presence of getSnapshotBeforeUpdate or getDerivedStateFromProps
+prevents this from being invoked.
 
-*__deprecated__*: 16.3, use componentDidMount or the constructor instead
+**`deprecated`** 16.3, use componentDidMount or the constructor instead
 
-*__see__*: [https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#initializing-state](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#initializing-state)
+**`see`** https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#initializing-state
 
-*__see__*: [https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path)
+**`see`** https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="unsafe_componentwillreceiveprops"></a>
 
-## `<Optional>` UNSAFE_componentWillReceiveProps
+### `Optional` UNSAFE_componentWillReceiveProps
 
-▸ **UNSAFE_componentWillReceiveProps**(nextProps: *`Readonly`<[Props](../modules/_types_.md#props)>*, nextContext: *`any`*): `void`
+▸ **UNSAFE_componentWillReceiveProps**(`nextProps`: `Readonly<Props>`, `nextContext`: any): *void*
 
-*Inherited from DeprecatedLifecycle.UNSAFE_componentWillReceiveProps*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:679*
+Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:679
 
-Called when the component may be receiving new props. React may call this even if props have not changed, so be sure to compare new and existing props if you only want to handle changes.
+Called when the component may be receiving new props.
+React may call this even if props have not changed, so be sure to compare new and existing
+props if you only want to handle changes.
 
 Calling `Component#setState` generally does not trigger this method.
 
 This method will not stop working in React 17.
 
-Note: the presence of getSnapshotBeforeUpdate or getDerivedStateFromProps prevents this from being invoked.
+Note: the presence of getSnapshotBeforeUpdate or getDerivedStateFromProps
+prevents this from being invoked.
 
-*__deprecated__*: 16.3, use static getDerivedStateFromProps instead
+**`deprecated`** 16.3, use static getDerivedStateFromProps instead
 
-*__see__*: [https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#updating-state-based-on-props](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#updating-state-based-on-props)
+**`see`** https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#updating-state-based-on-props
 
-*__see__*: [https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path)
+**`see`** https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| nextProps | `Readonly`<[Props](../modules/_types_.md#props)> |
-| nextContext | `any` |
+Name | Type |
+------ | ------ |
+`nextProps` | `Readonly<Props>` |
+`nextContext` | any |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="unsafe_componentwillupdate"></a>
 
-## `<Optional>` UNSAFE_componentWillUpdate
+### `Optional` UNSAFE_componentWillUpdate
 
-▸ **UNSAFE_componentWillUpdate**(nextProps: *`Readonly`<[Props](../modules/_types_.md#props)>*, nextState: *`Readonly`<`State`>*, nextContext: *`any`*): `void`
+▸ **UNSAFE_componentWillUpdate**(`nextProps`: `Readonly<Props>`, `nextState`: `Readonly<State>`, `nextContext`: any): *void*
 
-*Inherited from DeprecatedLifecycle.UNSAFE_componentWillUpdate*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:707*
+Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:707
 
 Called immediately before rendering when new props or state is received. Not called for the initial render.
 
@@ -85,71 +112,70 @@ Note: You cannot call `Component#setState` here.
 
 This method will not stop working in React 17.
 
-Note: the presence of getSnapshotBeforeUpdate or getDerivedStateFromProps prevents this from being invoked.
+Note: the presence of getSnapshotBeforeUpdate or getDerivedStateFromProps
+prevents this from being invoked.
 
-*__deprecated__*: 16.3, use getSnapshotBeforeUpdate instead
+**`deprecated`** 16.3, use getSnapshotBeforeUpdate instead
 
-*__see__*: [https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#reading-dom-properties-before-an-update](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#reading-dom-properties-before-an-update)
+**`see`** https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#reading-dom-properties-before-an-update
 
-*__see__*: [https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path)
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| nextProps | `Readonly`<[Props](../modules/_types_.md#props)> |
-| nextState | `Readonly`<`State`> |
-| nextContext | `any` |
-
-**Returns:** `void`
-
-___
-<a id="componentdidcatch"></a>
-
-## `<Optional>` componentDidCatch
-
-▸ **componentDidCatch**(error: *`Error`*, errorInfo: *`ErrorInfo`*): `void`
-
-*Inherited from ComponentLifecycle.componentDidCatch*
-
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:576*
-
-Catches exceptions generated in descendant components. Unhandled exceptions will cause the entire component tree to unmount.
+**`see`** https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| error | `Error` |
-| errorInfo | `ErrorInfo` |
+Name | Type |
+------ | ------ |
+`nextProps` | `Readonly<Props>` |
+`nextState` | `Readonly<State>` |
+`nextContext` | any |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="componentdidmount"></a>
 
-## `<Optional>` componentDidMount
+### `Optional` componentDidCatch
 
-▸ **componentDidMount**(): `void`
+▸ **componentDidCatch**(`error`: `Error`, `errorInfo`: `ErrorInfo`): *void*
 
-*Inherited from ComponentLifecycle.componentDidMount*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:555*
+Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:576
+
+Catches exceptions generated in descendant components. Unhandled exceptions will cause
+the entire component tree to unmount.
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`error` | `Error` |
+`errorInfo` | `ErrorInfo` |
+
+**Returns:** *void*
+
+___
+
+### `Optional` componentDidMount
+
+▸ **componentDidMount**(): *void*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:555
 
 Called immediately after a component is mounted. Setting state here will trigger re-rendering.
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="componentdidupdate"></a>
 
-## `<Optional>` componentDidUpdate
+### `Optional` componentDidUpdate
 
-▸ **componentDidUpdate**(prevProps: *`Readonly`<[Props](../modules/_types_.md#props)>*, prevState: *`Readonly`<`State`>*, snapshot?: *[SS]()*): `void`
+▸ **componentDidUpdate**(`prevProps`: `Readonly<Props>`, `prevState`: `Readonly<State>`, `snapshot?`: [SS]()): *void*
 
-*Inherited from NewLifecycle.componentDidUpdate*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:618*
+Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:618
 
 Called immediately after updating occurs. Not called for the initial render.
 
@@ -157,244 +183,238 @@ The snapshot is only present if getSnapshotBeforeUpdate is present and returns n
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| prevProps | `Readonly`<[Props](../modules/_types_.md#props)> |
-| prevState | `Readonly`<`State`> |
-| `Optional` snapshot | [SS]() |
+Name | Type |
+------ | ------ |
+`prevProps` | `Readonly<Props>` |
+`prevState` | `Readonly<State>` |
+`snapshot?` | [SS]() |
 
-**Returns:** `void`
-
-___
-<a id="componentwillmount"></a>
-
-## `<Optional>` componentWillMount
-
-▸ **componentWillMount**(): `void`
-
-*Inherited from DeprecatedLifecycle.componentWillMount*
-
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:633*
-
-Called immediately before mounting occurs, and before `Component#render`. Avoid introducing any side-effects or subscriptions in this method.
-
-Note: the presence of getSnapshotBeforeUpdate or getDerivedStateFromProps prevents this from being invoked.
-
-*__deprecated__*: 16.3, use componentDidMount or the constructor instead; will stop working in React 17
-
-*__see__*: [https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#initializing-state](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#initializing-state)
-
-*__see__*: [https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path)
-
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="componentwillreceiveprops"></a>
 
-## `<Optional>` componentWillReceiveProps
+### `Optional` componentWillMount
 
-▸ **componentWillReceiveProps**(nextProps: *`Readonly`<[Props](../modules/_types_.md#props)>*, nextContext: *`any`*): `void`
+▸ **componentWillMount**(): *void*
 
-*Inherited from DeprecatedLifecycle.componentWillReceiveProps*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:662*
+Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:633
 
-Called when the component may be receiving new props. React may call this even if props have not changed, so be sure to compare new and existing props if you only want to handle changes.
+Called immediately before mounting occurs, and before `Component#render`.
+Avoid introducing any side-effects or subscriptions in this method.
+
+Note: the presence of getSnapshotBeforeUpdate or getDerivedStateFromProps
+prevents this from being invoked.
+
+**`deprecated`** 16.3, use componentDidMount or the constructor instead; will stop working in React 17
+
+**`see`** https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#initializing-state
+
+**`see`** https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path
+
+**Returns:** *void*
+
+___
+
+### `Optional` componentWillReceiveProps
+
+▸ **componentWillReceiveProps**(`nextProps`: `Readonly<Props>`, `nextContext`: any): *void*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:662
+
+Called when the component may be receiving new props.
+React may call this even if props have not changed, so be sure to compare new and existing
+props if you only want to handle changes.
 
 Calling `Component#setState` generally does not trigger this method.
 
-Note: the presence of getSnapshotBeforeUpdate or getDerivedStateFromProps prevents this from being invoked.
+Note: the presence of getSnapshotBeforeUpdate or getDerivedStateFromProps
+prevents this from being invoked.
 
-*__deprecated__*: 16.3, use static getDerivedStateFromProps instead; will stop working in React 17
+**`deprecated`** 16.3, use static getDerivedStateFromProps instead; will stop working in React 17
 
-*__see__*: [https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#updating-state-based-on-props](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#updating-state-based-on-props)
+**`see`** https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#updating-state-based-on-props
 
-*__see__*: [https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path)
+**`see`** https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| nextProps | `Readonly`<[Props](../modules/_types_.md#props)> |
-| nextContext | `any` |
+Name | Type |
+------ | ------ |
+`nextProps` | `Readonly<Props>` |
+`nextContext` | any |
 
-**Returns:** `void`
-
-___
-<a id="componentwillunmount"></a>
-
-## `<Optional>` componentWillUnmount
-
-▸ **componentWillUnmount**(): `void`
-
-*Inherited from ComponentLifecycle.componentWillUnmount*
-
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:571*
-
-Called immediately before a component is destroyed. Perform any necessary cleanup in this method, such as cancelled network requests, or cleaning up any DOM elements created in `componentDidMount`.
-
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="componentwillupdate"></a>
 
-## `<Optional>` componentWillUpdate
+### `Optional` componentWillUnmount
 
-▸ **componentWillUpdate**(nextProps: *`Readonly`<[Props](../modules/_types_.md#props)>*, nextState: *`Readonly`<`State`>*, nextContext: *`any`*): `void`
+▸ **componentWillUnmount**(): *void*
 
-*Inherited from DeprecatedLifecycle.componentWillUpdate*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:692*
+Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:571
+
+Called immediately before a component is destroyed. Perform any necessary cleanup in this method, such as
+cancelled network requests, or cleaning up any DOM elements created in `componentDidMount`.
+
+**Returns:** *void*
+
+___
+
+### `Optional` componentWillUpdate
+
+▸ **componentWillUpdate**(`nextProps`: `Readonly<Props>`, `nextState`: `Readonly<State>`, `nextContext`: any): *void*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:692
 
 Called immediately before rendering when new props or state is received. Not called for the initial render.
 
 Note: You cannot call `Component#setState` here.
 
-Note: the presence of getSnapshotBeforeUpdate or getDerivedStateFromProps prevents this from being invoked.
+Note: the presence of getSnapshotBeforeUpdate or getDerivedStateFromProps
+prevents this from being invoked.
 
-*__deprecated__*: 16.3, use getSnapshotBeforeUpdate instead; will stop working in React 17
+**`deprecated`** 16.3, use getSnapshotBeforeUpdate instead; will stop working in React 17
 
-*__see__*: [https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#reading-dom-properties-before-an-update](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#reading-dom-properties-before-an-update)
+**`see`** https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#reading-dom-properties-before-an-update
 
-*__see__*: [https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path)
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| nextProps | `Readonly`<[Props](../modules/_types_.md#props)> |
-| nextState | `Readonly`<`State`> |
-| nextContext | `any` |
-
-**Returns:** `void`
-
-___
-<a id="getsnapshotbeforeupdate"></a>
-
-## `<Optional>` getSnapshotBeforeUpdate
-
-▸ **getSnapshotBeforeUpdate**(prevProps: *`Readonly`<[Props](../modules/_types_.md#props)>*, prevState: *`Readonly`<`State`>*): `SS` \| `null`
-
-*Inherited from NewLifecycle.getSnapshotBeforeUpdate*
-
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:612*
-
-Runs before React applies the result of `render` to the document, and returns an object to be given to componentDidUpdate. Useful for saving things such as scroll position before `render` causes changes to it.
-
-Note: the presence of getSnapshotBeforeUpdate prevents any of the deprecated lifecycle events from running.
+**`see`** https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html#gradual-migration-path
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| prevProps | `Readonly`<[Props](../modules/_types_.md#props)> |
-| prevState | `Readonly`<`State`> |
+Name | Type |
+------ | ------ |
+`nextProps` | `Readonly<Props>` |
+`nextState` | `Readonly<State>` |
+`nextContext` | any |
 
-**Returns:** `SS` \| `null`
-
-___
-<a id="render"></a>
-
-##  render
-
-▸ **render**(): `Element`
-
-*Defined in [Identicon.tsx:94](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/Identicon.tsx#L94)*
-
-**Returns:** `Element`
+**Returns:** *void*
 
 ___
-<a id="shouldcomponentupdate"></a>
 
-## `<Optional>` shouldComponentUpdate
+### `Optional` getSnapshotBeforeUpdate
 
-▸ **shouldComponentUpdate**(nextProps: *`Readonly`<[Props](../modules/_types_.md#props)>*, nextState: *`Readonly`<`State`>*, nextContext: *`any`*): `boolean`
+▸ **getSnapshotBeforeUpdate**(`prevProps`: `Readonly<Props>`, `prevState`: `Readonly<State>`): *`SS` | null*
 
-*Inherited from ComponentLifecycle.shouldComponentUpdate*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:566*
+Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:612
+
+Runs before React applies the result of `render` to the document, and
+returns an object to be given to componentDidUpdate. Useful for saving
+things such as scroll position before `render` causes changes to it.
+
+Note: the presence of getSnapshotBeforeUpdate prevents any of the deprecated
+lifecycle events from running.
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`prevProps` | `Readonly<Props>` |
+`prevState` | `Readonly<State>` |
+
+**Returns:** *`SS` | null*
+
+___
+
+###  render
+
+▸ **render**(): *`Element`*
+
+*Defined in [Identicon.tsx:94](url)*
+
+**Returns:** *`Element`*
+
+___
+
+### `Optional` shouldComponentUpdate
+
+▸ **shouldComponentUpdate**(`nextProps`: `Readonly<Props>`, `nextState`: `Readonly<State>`, `nextContext`: any): *boolean*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:566
 
 Called to determine whether the change in props and state should trigger a re-render.
 
-`Component` always returns true. `PureComponent` implements a shallow comparison on props and state and returns true if any props or states have changed.
+`Component` always returns true.
+`PureComponent` implements a shallow comparison on props and state and returns true if any
+props or states have changed.
 
-If false is returned, `Component#render`, `componentWillUpdate` and `componentDidUpdate` will not be called.
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| nextProps | `Readonly`<[Props](../modules/_types_.md#props)> |
-| nextState | `Readonly`<`State`> |
-| nextContext | `any` |
-
-**Returns:** `boolean`
-
-___
-<a id="getderivedstatefromprops"></a>
-
-## `<Static>` getDerivedStateFromProps
-
-▸ **getDerivedStateFromProps**(__namedParameters: *`object`*, prevState: *`State`*): `State` \| `null`
-
-*Defined in [Identicon.tsx:73](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/Identicon.tsx#L73)*
+If false is returned, `Component#render`, `componentWillUpdate`
+and `componentDidUpdate` will not be called.
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| __namedParameters | `object` |
-| prevState | `State` |
+Name | Type |
+------ | ------ |
+`nextProps` | `Readonly<Props>` |
+`nextState` | `Readonly<State>` |
+`nextContext` | any |
 
-**Returns:** `State` \| `null`
+**Returns:** *boolean*
 
 ___
-<a id="setdefaultprefix"></a>
 
-## `<Static>` setDefaultPrefix
+### `Static` getDerivedStateFromProps
 
-▸ **setDefaultPrefix**(prefix: *`Prefix`*): `void`
+▸ **getDerivedStateFromProps**(`__namedParameters`: object, `prevState`: `State`): *`State` | null*
 
-*Defined in [Identicon.tsx:69](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/Identicon.tsx#L69)*
+*Defined in [Identicon.tsx:73](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| prefix | `Prefix` |
+Name | Type |
+------ | ------ |
+`__namedParameters` | object |
+`prevState` | `State` |
 
-**Returns:** `void`
+**Returns:** *`State` | null*
 
 ___
 
-# Object literals
+### `Static` setDefaultPrefix
 
-<a id="state"></a>
+▸ **setDefaultPrefix**(`prefix`: `Prefix`): *void*
 
-##  state
+*Defined in [Identicon.tsx:69](url)*
 
-**state**: *`object`*
+**Parameters:**
 
-*Defined in [Identicon.tsx:62](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/Identicon.tsx#L62)*
+Name | Type |
+------ | ------ |
+`prefix` | `Prefix` |
 
-<a id="state.address"></a>
+**Returns:** *void*
+
+___
+
+## Object literals
+
+###  state
+
+### ■ **state**: *object*
+
+*Defined in [Identicon.tsx:62](url)*
 
 ###  address
 
-**● address**: *`string`* = ""
+● **address**: *string* = ""
 
-*Defined in [Identicon.tsx:63](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/Identicon.tsx#L63)*
-
-___
-<a id="state.publickey"></a>
+*Defined in [Identicon.tsx:63](url)*
 
 ###  publicKey
 
-**● publicKey**: *`string`* = "0x"
+● **publicKey**: *string* = "0x"
 
-*Defined in [Identicon.tsx:64](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/Identicon.tsx#L64)*
-
-___
+*Defined in [Identicon.tsx:64](url)*
 
 ___
-

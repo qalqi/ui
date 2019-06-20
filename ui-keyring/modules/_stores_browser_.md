@@ -1,10 +1,7 @@
+> # External module: "stores/Browser"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [BrowserStore](../classes/_stores_browser_.browserstore.md)
-
----
-

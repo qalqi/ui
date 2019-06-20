@@ -1,25 +1,28 @@
+> # External module: "beachball/svg/element"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="element"></a>
+* [element](_beachball_svg_element_.md#element)
 
-##  element
+## Functions
 
-▸ **element**(size: *`number`*, type?: *`string`*, x?: *`number`*, y?: *`number`*): `Element`
+###  element
 
-*Defined in [beachball/svg/element.ts:8](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/beachball/svg/element.ts#L8)*
+▸ **element**(`size`: number, `type`: string, `x`: number, `y`: number): *`Element`*
+
+*Defined in [beachball/svg/element.ts:8](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| size | `number` | - |
-| `Default value` type | `string` | &quot;svg&quot; |
-| `Default value` x | `number` | 0 |
-| `Default value` y | `number` | 0 |
+Name | Type | Default |
+------ | ------ | ------ |
+`size` | number | - |
+`type` | string | "svg" |
+`x` | number | 0 |
+`y` | number | 0 |
 
-**Returns:** `Element`
+**Returns:** *`Element`*
 
 ___
-

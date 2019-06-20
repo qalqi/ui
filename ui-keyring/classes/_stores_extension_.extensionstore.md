@@ -1,85 +1,102 @@
+> # Class: ExtensionStore
 
+## Hierarchy
 
-# Hierarchy
+* **ExtensionStore**
 
-**ExtensionStore**
-
-# Implements
+## Implements
 
 * [KeyringStore](../interfaces/_types_.keyringstore.md)
 
-# Methods
+### Index
 
-<a id="all"></a>
+#### Methods
 
-##  all
+* [all](_stores_extension_.extensionstore.md#all)
+* [get](_stores_extension_.extensionstore.md#get)
+* [remove](_stores_extension_.extensionstore.md#remove)
+* [set](_stores_extension_.extensionstore.md#set)
 
-▸ **all**(cb: *`function`*): `void`
+## Methods
 
-*Defined in [stores/Extension.ts:18](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/stores/Extension.ts#L18)*
+###  all
 
-**Parameters:**
+▸ **all**(`cb`: function): *void*
 
-| Name | Type |
-| ------ | ------ |
-| cb | `function` |
-
-**Returns:** `void`
-
-___
-<a id="get"></a>
-
-##  get
-
-▸ **get**(key: *`string`*, cb: *`function`*): `void`
-
-*Defined in [stores/Extension.ts:28](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/stores/Extension.ts#L28)*
+*Defined in [stores/Extension.ts:18](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `string` |
-| cb | `function` |
+■` cb`: *function*
 
-**Returns:** `void`
-
-___
-<a id="remove"></a>
-
-##  remove
-
-▸ **remove**(key: *`string`*, cb?: *`undefined` \| `function`*): `void`
-
-*Defined in [stores/Extension.ts:36](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/stores/Extension.ts#L36)*
+▸ (`key`: string, `value`: any): *void*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `string` |
-| `Optional` cb | `undefined` \| `function` |
+Name | Type |
+------ | ------ |
+`key` | string |
+`value` | any |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="set"></a>
 
-##  set
+###  get
 
-▸ **set**(key: *`string`*, value: *`any`*, cb?: *`undefined` \| `function`*): `void`
+▸ **get**(`key`: string, `cb`: function): *void*
 
-*Defined in [stores/Extension.ts:44](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/stores/Extension.ts#L44)*
+*Defined in [stores/Extension.ts:28](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `string` |
-| value | `any` |
-| `Optional` cb | `undefined` \| `function` |
+■` key`: *string*
 
-**Returns:** `void`
+■` cb`: *function*
+
+▸ (`value`: any): *void*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`value` | any |
+
+**Returns:** *void*
 
 ___
 
+###  remove
+
+▸ **remove**(`key`: string, `cb?`: undefined | function): *void*
+
+*Defined in [stores/Extension.ts:36](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`key` | string |
+`cb?` | undefined \| function |
+
+**Returns:** *void*
+
+___
+
+###  set
+
+▸ **set**(`key`: string, `value`: any, `cb?`: undefined | function): *void*
+
+*Defined in [stores/Extension.ts:44](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`key` | string |
+`value` | any |
+`cb?` | undefined \| function |
+
+**Returns:** *void*
+
+___

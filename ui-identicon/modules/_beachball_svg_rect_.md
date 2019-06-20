@@ -1,22 +1,25 @@
+> # External module: "beachball/svg/rect"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="rect"></a>
+* [rect](_beachball_svg_rect_.md#rect)
 
-##  rect
+## Functions
 
-▸ **rect**(size: *`number`*): `Element`
+###  rect
 
-*Defined in [beachball/svg/rect.ts:7](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-identicon/src/beachball/svg/rect.ts#L7)*
+▸ **rect**(`size`: number): *`Element`*
+
+*Defined in [beachball/svg/rect.ts:7](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| size | `number` |
+Name | Type |
+------ | ------ |
+`size` | number |
 
-**Returns:** `Element`
+**Returns:** *`Element`*
 
 ___
-

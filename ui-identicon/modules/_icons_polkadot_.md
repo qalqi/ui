@@ -1,10 +1,7 @@
+> # External module: "icons/Polkadot"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [Identicon](../classes/_icons_polkadot_.identicon.md)
-
----
-

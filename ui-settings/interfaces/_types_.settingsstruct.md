@@ -1,58 +1,61 @@
+> # Interface: SettingsStruct
 
+## Hierarchy
 
-# Hierarchy
+* **SettingsStruct**
 
-**SettingsStruct**
-
-# Implemented by
+## Implemented by
 
 * [Settings](../classes/_settings_.settings.md)
 
-# Properties
+### Index
 
-<a id="apiurl"></a>
+#### Properties
 
-##  apiUrl
+* [apiUrl](_types_.settingsstruct.md#apiurl)
+* [i18nLang](_types_.settingsstruct.md#i18nlang)
+* [locking](_types_.settingsstruct.md#locking)
+* [uiMode](_types_.settingsstruct.md#uimode)
+* [uiTheme](_types_.settingsstruct.md#uitheme)
 
-**● apiUrl**: *`string`*
+## Properties
 
-*Defined in [types.ts:12](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-settings/src/types.ts#L12)*
+###  apiUrl
 
-___
-<a id="i18nlang"></a>
+● **apiUrl**: *string*
 
-##  i18nLang
-
-**● i18nLang**: *`string`*
-
-*Defined in [types.ts:13](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-settings/src/types.ts#L13)*
-
-___
-<a id="locking"></a>
-
-##  locking
-
-**● locking**: *`string`*
-
-*Defined in [types.ts:14](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-settings/src/types.ts#L14)*
-
-___
-<a id="uimode"></a>
-
-##  uiMode
-
-**● uiMode**: *`string`*
-
-*Defined in [types.ts:15](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-settings/src/types.ts#L15)*
-
-___
-<a id="uitheme"></a>
-
-##  uiTheme
-
-**● uiTheme**: *`string`*
-
-*Defined in [types.ts:16](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-settings/src/types.ts#L16)*
+*Defined in [types.ts:12](url)*
 
 ___
 
+###  i18nLang
+
+● **i18nLang**: *string*
+
+*Defined in [types.ts:13](url)*
+
+___
+
+###  locking
+
+● **locking**: *string*
+
+*Defined in [types.ts:14](url)*
+
+___
+
+###  uiMode
+
+● **uiMode**: *string*
+
+*Defined in [types.ts:15](url)*
+
+___
+
+###  uiTheme
+
+● **uiTheme**: *string*
+
+*Defined in [types.ts:16](url)*
+
+___

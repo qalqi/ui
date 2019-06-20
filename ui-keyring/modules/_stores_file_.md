@@ -1,10 +1,7 @@
+> # External module: "stores/File"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [FileStore](../classes/_stores_file_.filestore.md)
-
----
-

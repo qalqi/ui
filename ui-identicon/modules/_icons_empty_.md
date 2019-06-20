@@ -1,10 +1,7 @@
+> # External module: "icons/Empty"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [Empty](../classes/_icons_empty_.empty.md)
-
----
-

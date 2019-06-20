@@ -1,24 +1,27 @@
+> # External module: "options/item"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="createitem"></a>
+* [createItem](_options_item_.md#createitem)
 
-##  createItem
+## Functions
 
-▸ **createItem**(address: *`string`*, _name?: *`undefined` \| `string`*, isUppercase?: *`boolean`*): [KeyringSectionOption](_options_types_.md#keyringsectionoption)
+###  createItem
 
-*Defined in [options/item.tsx:12](https://github.com/polkadot-js/ui/blob/2a30f2f/packages/ui-keyring/src/options/item.tsx#L12)*
+▸ **createItem**(`address`: string, `_name?`: undefined | string, `isUppercase`: boolean): *[KeyringSectionOption](_options_types_.md#keyringsectionoption)*
+
+*Defined in [options/item.tsx:12](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| address | `string` | - |
-| `Optional` _name | `undefined` \| `string` | - |
-| `Default value` isUppercase | `boolean` | true |
+Name | Type | Default |
+------ | ------ | ------ |
+`address` | string | - |
+`_name?` | undefined \| string | - |
+`isUppercase` | boolean | true |
 
-**Returns:** [KeyringSectionOption](_options_types_.md#keyringsectionoption)
+**Returns:** *[KeyringSectionOption](_options_types_.md#keyringsectionoption)*
 
 ___
-
