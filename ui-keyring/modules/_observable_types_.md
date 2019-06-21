@@ -14,7 +14,7 @@
 
 Ƭ **AddressSubject**: *object*
 
-*Defined in [observable/types.ts:18](url)*
+*Defined in [observable/types.ts:18](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/observable/types.ts#L18)*
 
 #### Type declaration:
 
@@ -24,7 +24,7 @@ ___
 
 Ƭ **SingleAddress**: *object*
 
-*Defined in [observable/types.ts:9](url)*
+*Defined in [observable/types.ts:9](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/observable/types.ts#L9)*
 
 #### Type declaration:
 
@@ -34,7 +34,7 @@ ___
 
 Ƭ **SubjectInfo**: *object*
 
-*Defined in [observable/types.ts:14](url)*
+*Defined in [observable/types.ts:14](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/observable/types.ts#L14)*
 
 #### Type declaration:
 

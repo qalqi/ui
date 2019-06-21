@@ -13,7 +13,7 @@
 
 Ƭ **ColorGen**: *function*
 
-*Defined in [beachball/types.ts:7](url)*
+*Defined in [beachball/types.ts:7](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-identicon/src/beachball/types.ts#L7)*
 
 #### Type declaration:
 
@@ -31,7 +31,7 @@ ___
 
 Ƭ **Seeder**: *function*
 
-*Defined in [beachball/types.ts:5](url)*
+*Defined in [beachball/types.ts:5](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-identicon/src/beachball/types.ts#L5)*
 
 #### Type declaration:
 
