@@ -2,9 +2,9 @@
 
 ## Type parameters
 
-■` S`
+▪ **S**
 
-■` SS`
+▪ **SS**
 
 ## Hierarchy
 
@@ -325,7 +325,7 @@ ___
 
 ▸ **render**(): *`Element`*
 
-*Defined in [icons/Polkadot.tsx:52](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-identicon/src/icons/Polkadot.tsx#L52)*
+*Defined in [icons/Polkadot.tsx:52](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-identicon/src/icons/Polkadot.tsx#L52)*
 
 **Returns:** *`Element`*
 
@@ -357,5 +357,3 @@ Name | Type |
 `nextContext` | any |
 
 **Returns:** *boolean*
-
-___

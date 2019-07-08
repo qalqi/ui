@@ -22,40 +22,38 @@
 
 ###  apiUrl
 
-● **apiUrl**: *string*
+• **apiUrl**: *string*
 
-*Defined in [types.ts:12](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-settings/src/types.ts#L12)*
+*Defined in [types.ts:12](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-settings/src/types.ts#L12)*
 
 ___
 
 ###  i18nLang
 
-● **i18nLang**: *string*
+• **i18nLang**: *string*
 
-*Defined in [types.ts:13](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-settings/src/types.ts#L13)*
+*Defined in [types.ts:13](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-settings/src/types.ts#L13)*
 
 ___
 
 ###  locking
 
-● **locking**: *string*
+• **locking**: *string*
 
-*Defined in [types.ts:14](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-settings/src/types.ts#L14)*
+*Defined in [types.ts:14](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-settings/src/types.ts#L14)*
 
 ___
 
 ###  uiMode
 
-● **uiMode**: *string*
+• **uiMode**: *string*
 
-*Defined in [types.ts:15](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-settings/src/types.ts#L15)*
+*Defined in [types.ts:15](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-settings/src/types.ts#L15)*
 
 ___
 
 ###  uiTheme
 
-● **uiTheme**: *string*
+• **uiTheme**: *string*
 
-*Defined in [types.ts:16](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-settings/src/types.ts#L16)*
-
-___
+*Defined in [types.ts:16](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-settings/src/types.ts#L16)*

@@ -23,11 +23,11 @@
 
 ▸ **all**(`cb`: function): *void*
 
-*Defined in [stores/Browser.ts:10](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/stores/Browser.ts#L10)*
+*Defined in [stores/Browser.ts:10](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/stores/Browser.ts#L10)*
 
 **Parameters:**
 
-■` cb`: *function*
+▪ **cb**: *function*
 
 ▸ (`key`: string, `value`: any): *void*
 
@@ -46,13 +46,13 @@ ___
 
 ▸ **get**(`key`: string, `cb`: function): *void*
 
-*Defined in [stores/Browser.ts:16](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/stores/Browser.ts#L16)*
+*Defined in [stores/Browser.ts:16](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/stores/Browser.ts#L16)*
 
 **Parameters:**
 
-■` key`: *string*
+▪ **key**: *string*
 
-■` cb`: *function*
+▪ **cb**: *function*
 
 ▸ (`value`: any): *void*
 
@@ -70,7 +70,7 @@ ___
 
 ▸ **remove**(`key`: string, `cb?`: undefined | function): *void*
 
-*Defined in [stores/Browser.ts:20](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/stores/Browser.ts#L20)*
+*Defined in [stores/Browser.ts:20](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/stores/Browser.ts#L20)*
 
 **Parameters:**
 
@@ -87,7 +87,7 @@ ___
 
 ▸ **set**(`key`: string, `value`: any, `cb?`: undefined | function): *void*
 
-*Defined in [stores/Browser.ts:25](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/stores/Browser.ts#L25)*
+*Defined in [stores/Browser.ts:25](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/stores/Browser.ts#L25)*
 
 **Parameters:**
 
@@ -98,5 +98,3 @@ Name | Type |
 `cb?` | undefined \| function |
 
 **Returns:** *void*
-
-___

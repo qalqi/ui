@@ -27,7 +27,7 @@
 
 \+ **new FileStore**(`path`: string): *[FileStore](_stores_file_.filestore.md)*
 
-*Defined in [stores/File.ts:13](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/stores/File.ts#L13)*
+*Defined in [stores/File.ts:13](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/stores/File.ts#L13)*
 
 **Parameters:**
 
@@ -37,19 +37,17 @@ Name | Type |
 
 **Returns:** *[FileStore](_stores_file_.filestore.md)*
 
-___
-
 ## Methods
 
 ###  all
 
 ▸ **all**(`cb`: function): *void*
 
-*Defined in [stores/File.ts:23](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/stores/File.ts#L23)*
+*Defined in [stores/File.ts:23](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/stores/File.ts#L23)*
 
 **Parameters:**
 
-■` cb`: *function*
+▪ **cb**: *function*
 
 ▸ (`key`: string, `value`: any): *void*
 
@@ -68,13 +66,13 @@ ___
 
 ▸ **get**(`key`: string, `cb`: function): *void*
 
-*Defined in [stores/File.ts:30](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/stores/File.ts#L30)*
+*Defined in [stores/File.ts:30](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/stores/File.ts#L30)*
 
 **Parameters:**
 
-■` key`: *string*
+▪ **key**: *string*
 
-■` cb`: *function*
+▪ **cb**: *function*
 
 ▸ (`value`: any): *void*
 
@@ -92,7 +90,7 @@ ___
 
 ▸ **remove**(`key`: string, `cb?`: undefined | function): *void*
 
-*Defined in [stores/File.ts:34](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/stores/File.ts#L34)*
+*Defined in [stores/File.ts:34](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/stores/File.ts#L34)*
 
 **Parameters:**
 
@@ -109,7 +107,7 @@ ___
 
 ▸ **set**(`key`: string, `value`: any, `cb?`: undefined | function): *void*
 
-*Defined in [stores/File.ts:39](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/stores/File.ts#L39)*
+*Defined in [stores/File.ts:39](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/stores/File.ts#L39)*
 
 **Parameters:**
 
@@ -120,5 +118,3 @@ Name | Type |
 `cb?` | undefined \| function |
 
 **Returns:** *void*
-
-___

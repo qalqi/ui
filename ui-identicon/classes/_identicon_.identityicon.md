@@ -2,7 +2,7 @@
 
 ## Type parameters
 
-■` SS`
+▪ **SS**
 
 ## Hierarchy
 
@@ -329,7 +329,7 @@ ___
 
 ▸ **render**(): *`Element`*
 
-*Defined in [Identicon.tsx:94](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-identicon/src/Identicon.tsx#L94)*
+*Defined in [Identicon.tsx:94](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-identicon/src/Identicon.tsx#L94)*
 
 **Returns:** *`Element`*
 
@@ -368,7 +368,7 @@ ___
 
 ▸ **getDerivedStateFromProps**(`__namedParameters`: object, `prevState`: `State`): *`State` | null*
 
-*Defined in [Identicon.tsx:73](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-identicon/src/Identicon.tsx#L73)*
+*Defined in [Identicon.tsx:73](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-identicon/src/Identicon.tsx#L73)*
 
 **Parameters:**
 
@@ -385,7 +385,7 @@ ___
 
 ▸ **setDefaultPrefix**(`prefix`: `Prefix`): *void*
 
-*Defined in [Identicon.tsx:69](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-identicon/src/Identicon.tsx#L69)*
+*Defined in [Identicon.tsx:69](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-identicon/src/Identicon.tsx#L69)*
 
 **Parameters:**
 
@@ -395,26 +395,22 @@ Name | Type |
 
 **Returns:** *void*
 
-___
-
 ## Object literals
 
 ###  state
 
-### ■ **state**: *object*
+### ▪ **state**: *object*
 
-*Defined in [Identicon.tsx:62](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-identicon/src/Identicon.tsx#L62)*
+*Defined in [Identicon.tsx:62](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-identicon/src/Identicon.tsx#L62)*
 
 ###  address
 
-● **address**: *string* = ""
+• **address**: *string* = ""
 
-*Defined in [Identicon.tsx:63](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-identicon/src/Identicon.tsx#L63)*
+*Defined in [Identicon.tsx:63](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-identicon/src/Identicon.tsx#L63)*
 
 ###  publicKey
 
-● **publicKey**: *string* = "0x"
+• **publicKey**: *string* = "0x"
 
-*Defined in [Identicon.tsx:64](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-identicon/src/Identicon.tsx#L64)*
-
-___
+*Defined in [Identicon.tsx:64](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-identicon/src/Identicon.tsx#L64)*

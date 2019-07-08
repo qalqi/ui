@@ -54,17 +54,17 @@
 
 ###  accounts
 
-● **accounts**: *[AddressSubject](../modules/_observable_types_.md#addresssubject)*
+• **accounts**: *[AddressSubject](../modules/_observable_types_.md#addresssubject)*
 
-*Defined in [types.ts:62](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L62)*
+*Defined in [types.ts:62](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L62)*
 
 ___
 
 ###  addExternal
 
-● **addExternal**: *function*
+• **addExternal**: *function*
 
-*Defined in [types.ts:68](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L68)*
+*Defined in [types.ts:68](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L68)*
 
 #### Type declaration:
 
@@ -81,9 +81,9 @@ ___
 
 ###  addPair
 
-● **addPair**: *function*
+• **addPair**: *function*
 
-*Defined in [types.ts:69](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L69)*
+*Defined in [types.ts:69](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L69)*
 
 #### Type declaration:
 
@@ -100,9 +100,9 @@ ___
 
 ###  addUri
 
-● **addUri**: *function*
+• **addUri**: *function*
 
-*Defined in [types.ts:70](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L70)*
+*Defined in [types.ts:70](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L70)*
 
 #### Type declaration:
 
@@ -121,17 +121,17 @@ ___
 
 ###  addresses
 
-● **addresses**: *[AddressSubject](../modules/_observable_types_.md#addresssubject)*
+• **addresses**: *[AddressSubject](../modules/_observable_types_.md#addresssubject)*
 
-*Defined in [types.ts:63](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L63)*
+*Defined in [types.ts:63](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L63)*
 
 ___
 
 ###  backupAccount
 
-● **backupAccount**: *function*
+• **backupAccount**: *function*
 
-*Defined in [types.ts:71](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L71)*
+*Defined in [types.ts:71](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L71)*
 
 #### Type declaration:
 
@@ -148,17 +148,17 @@ ___
 
 ###  contracts
 
-● **contracts**: *[AddressSubject](../modules/_observable_types_.md#addresssubject)*
+• **contracts**: *[AddressSubject](../modules/_observable_types_.md#addresssubject)*
 
-*Defined in [types.ts:64](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L64)*
+*Defined in [types.ts:64](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L64)*
 
 ___
 
 ###  decodeAddress
 
-● **decodeAddress**: *function*
+• **decodeAddress**: *function*
 
-*Defined in [types.ts:73](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L73)*
+*Defined in [types.ts:73](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L73)*
 
 #### Type declaration:
 
@@ -174,9 +174,9 @@ ___
 
 ###  encodeAddress
 
-● **encodeAddress**: *function*
+• **encodeAddress**: *function*
 
-*Defined in [types.ts:74](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L74)*
+*Defined in [types.ts:74](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L74)*
 
 #### Type declaration:
 
@@ -192,9 +192,9 @@ ___
 
 ###  encryptAccount
 
-● **encryptAccount**: *function*
+• **encryptAccount**: *function*
 
-*Defined in [types.ts:75](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L75)*
+*Defined in [types.ts:75](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L75)*
 
 #### Type declaration:
 
@@ -211,9 +211,9 @@ ___
 
 ###  forgetAccount
 
-● **forgetAccount**: *function*
+• **forgetAccount**: *function*
 
-*Defined in [types.ts:76](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L76)*
+*Defined in [types.ts:76](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L76)*
 
 #### Type declaration:
 
@@ -229,9 +229,9 @@ ___
 
 ###  forgetAddress
 
-● **forgetAddress**: *function*
+• **forgetAddress**: *function*
 
-*Defined in [types.ts:77](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L77)*
+*Defined in [types.ts:77](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L77)*
 
 #### Type declaration:
 
@@ -247,9 +247,9 @@ ___
 
 ###  forgetContract
 
-● **forgetContract**: *function*
+• **forgetContract**: *function*
 
-*Defined in [types.ts:78](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L78)*
+*Defined in [types.ts:78](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L78)*
 
 #### Type declaration:
 
@@ -265,17 +265,17 @@ ___
 
 ### `Optional` genesisHash
 
-● **genesisHash**? : *undefined | string*
+• **genesisHash**? : *undefined | string*
 
-*Defined in [types.ts:66](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L66)*
+*Defined in [types.ts:66](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L66)*
 
 ___
 
 ###  getAccount
 
-● **getAccount**: *function*
+• **getAccount**: *function*
 
-*Defined in [types.ts:79](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L79)*
+*Defined in [types.ts:79](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L79)*
 
 #### Type declaration:
 
@@ -291,9 +291,9 @@ ___
 
 ###  getAccounts
 
-● **getAccounts**: *function*
+• **getAccounts**: *function*
 
-*Defined in [types.ts:80](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L80)*
+*Defined in [types.ts:80](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L80)*
 
 #### Type declaration:
 
@@ -303,9 +303,9 @@ ___
 
 ###  getAddress
 
-● **getAddress**: *function*
+• **getAddress**: *function*
 
-*Defined in [types.ts:81](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L81)*
+*Defined in [types.ts:81](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L81)*
 
 #### Type declaration:
 
@@ -322,9 +322,9 @@ ___
 
 ###  getAddresses
 
-● **getAddresses**: *function*
+• **getAddresses**: *function*
 
-*Defined in [types.ts:82](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L82)*
+*Defined in [types.ts:82](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L82)*
 
 #### Type declaration:
 
@@ -334,9 +334,9 @@ ___
 
 ###  getContract
 
-● **getContract**: *function*
+• **getContract**: *function*
 
-*Defined in [types.ts:83](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L83)*
+*Defined in [types.ts:83](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L83)*
 
 #### Type declaration:
 
@@ -352,9 +352,9 @@ ___
 
 ###  getContracts
 
-● **getContracts**: *function*
+• **getContracts**: *function*
 
-*Defined in [types.ts:84](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L84)*
+*Defined in [types.ts:84](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L84)*
 
 #### Type declaration:
 
@@ -370,9 +370,9 @@ ___
 
 ###  getPair
 
-● **getPair**: *function*
+• **getPair**: *function*
 
-*Defined in [types.ts:85](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L85)*
+*Defined in [types.ts:85](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L85)*
 
 #### Type declaration:
 
@@ -388,9 +388,9 @@ ___
 
 ###  getPairs
 
-● **getPairs**: *function*
+• **getPairs**: *function*
 
-*Defined in [types.ts:86](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L86)*
+*Defined in [types.ts:86](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L86)*
 
 #### Type declaration:
 
@@ -400,9 +400,9 @@ ___
 
 ###  isAvailable
 
-● **isAvailable**: *function*
+• **isAvailable**: *function*
 
-*Defined in [types.ts:87](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L87)*
+*Defined in [types.ts:87](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L87)*
 
 #### Type declaration:
 
@@ -418,9 +418,9 @@ ___
 
 ###  isPassValid
 
-● **isPassValid**: *function*
+• **isPassValid**: *function*
 
-*Defined in [types.ts:88](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L88)*
+*Defined in [types.ts:88](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L88)*
 
 #### Type declaration:
 
@@ -436,17 +436,17 @@ ___
 
 ###  keyring
 
-● **keyring**: *`BaseKeyringInstance` | undefined*
+• **keyring**: *`BaseKeyringInstance` | undefined*
 
-*Defined in [types.ts:65](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L65)*
+*Defined in [types.ts:65](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L65)*
 
 ___
 
 ###  loadAll
 
-● **loadAll**: *function*
+• **loadAll**: *function*
 
-*Defined in [types.ts:89](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L89)*
+*Defined in [types.ts:89](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L89)*
 
 #### Type declaration:
 
@@ -462,9 +462,9 @@ ___
 
 ###  restoreAccount
 
-● **restoreAccount**: *function*
+• **restoreAccount**: *function*
 
-*Defined in [types.ts:90](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L90)*
+*Defined in [types.ts:90](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L90)*
 
 #### Type declaration:
 
@@ -481,9 +481,9 @@ ___
 
 ###  saveAccount
 
-● **saveAccount**: *function*
+• **saveAccount**: *function*
 
-*Defined in [types.ts:91](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L91)*
+*Defined in [types.ts:91](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L91)*
 
 #### Type declaration:
 
@@ -500,9 +500,9 @@ ___
 
 ###  saveAccountMeta
 
-● **saveAccountMeta**: *function*
+• **saveAccountMeta**: *function*
 
-*Defined in [types.ts:92](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L92)*
+*Defined in [types.ts:92](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L92)*
 
 #### Type declaration:
 
@@ -519,9 +519,9 @@ ___
 
 ###  saveAddress
 
-● **saveAddress**: *function*
+• **saveAddress**: *function*
 
-*Defined in [types.ts:93](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L93)*
+*Defined in [types.ts:93](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L93)*
 
 #### Type declaration:
 
@@ -538,9 +538,9 @@ ___
 
 ###  saveContract
 
-● **saveContract**: *function*
+• **saveContract**: *function*
 
-*Defined in [types.ts:94](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L94)*
+*Defined in [types.ts:94](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L94)*
 
 #### Type declaration:
 
@@ -557,9 +557,9 @@ ___
 
 ###  saveRecent
 
-● **saveRecent**: *function*
+• **saveRecent**: *function*
 
-*Defined in [types.ts:95](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L95)*
+*Defined in [types.ts:95](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L95)*
 
 #### Type declaration:
 
@@ -575,9 +575,9 @@ ___
 
 ###  setDevMode
 
-● **setDevMode**: *function*
+• **setDevMode**: *function*
 
-*Defined in [types.ts:96](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L96)*
+*Defined in [types.ts:96](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L96)*
 
 #### Type declaration:
 
@@ -589,15 +589,13 @@ Name | Type |
 ------ | ------ |
 `isDevelopment` | boolean |
 
-___
-
 ## Methods
 
 ###  createFromUri
 
 ▸ **createFromUri**(`suri`: string, `meta?`: `KeyringPair$Meta`, `type?`: `KeypairType`): *`KeyringPair`*
 
-*Defined in [types.ts:72](https://github.com/polkadot-js/ui/blob/49a0d06/packages/ui-keyring/src/types.ts#L72)*
+*Defined in [types.ts:72](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/types.ts#L72)*
 
 **Parameters:**
 
@@ -608,5 +606,3 @@ Name | Type |
 `type?` | `KeypairType` |
 
 **Returns:** *`KeyringPair`*
-
-___
