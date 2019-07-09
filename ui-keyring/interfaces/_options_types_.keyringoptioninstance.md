@@ -17,7 +17,7 @@
 
 • **createOptionHeader**: *function*
 
-*Defined in [options/types.ts:26](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/options/types.ts#L26)*
+*Defined in [options/types.ts:26](https://github.com/polkadot-js/ui/blob/fa0eba5/packages/ui-keyring/src/options/types.ts#L26)*
 
 #### Type declaration:
 
@@ -35,7 +35,7 @@ ___
 
 • **init**: *function*
 
-*Defined in [options/types.ts:27](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-keyring/src/options/types.ts#L27)*
+*Defined in [options/types.ts:27](https://github.com/polkadot-js/ui/blob/fa0eba5/packages/ui-keyring/src/options/types.ts#L27)*
 
 #### Type declaration:
 

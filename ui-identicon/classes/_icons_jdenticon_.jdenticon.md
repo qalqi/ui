@@ -325,7 +325,7 @@ ___
 
 ▸ **render**(): *`Element`*
 
-*Defined in [icons/Jdenticon.tsx:11](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-identicon/src/icons/Jdenticon.tsx#L11)*
+*Defined in [icons/Jdenticon.tsx:11](https://github.com/polkadot-js/ui/blob/fa0eba5/packages/ui-identicon/src/icons/Jdenticon.tsx#L11)*
 
 **Returns:** *`Element`*
 

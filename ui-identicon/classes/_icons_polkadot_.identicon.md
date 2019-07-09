@@ -325,7 +325,7 @@ ___
 
 ▸ **render**(): *`Element`*
 
-*Defined in [icons/Polkadot.tsx:52](https://github.com/polkadot-js/ui/blob/7e71e8a/packages/ui-identicon/src/icons/Polkadot.tsx#L52)*
+*Defined in [icons/Polkadot.tsx:52](https://github.com/polkadot-js/ui/blob/fa0eba5/packages/ui-identicon/src/icons/Polkadot.tsx#L52)*
 
 **Returns:** *`Element`*
 
