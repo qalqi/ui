@@ -12,7 +12,7 @@
 
 ▸ **circle**(`r`: number, `cx`: number, `cy`: number): *`Element`*
 
-*Defined in [beachball/svg/circle.ts:7](https://github.com/polkadot-js/ui/blob/95939be/packages/ui-identicon/src/beachball/svg/circle.ts#L7)*
+*Defined in [beachball/svg/circle.ts:7](https://github.com/polkadot-js/ui/blob/5da5645/packages/ui-identicon/src/beachball/svg/circle.ts#L7)*
 
 **Parameters:**
 
