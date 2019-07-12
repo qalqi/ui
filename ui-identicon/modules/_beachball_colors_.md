@@ -10,9 +10,9 @@
 
 ###  colors
 
-▸ **colors**(`seeder`: [Seeder](_beachball_types_.md#seeder)): *[ColorGen](_beachball_types_.md#colorgen)*
+▸ **colors**(`seeder`: [Seeder](_beachball_types_.md#seeder)): *[ColorGen](../interfaces/_beachball_types_.colorgen.md)*
 
-*Defined in [beachball/colors.ts:14](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-identicon/src/beachball/colors.ts#L14)*
+*Defined in [beachball/colors.ts:14](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-identicon/src/beachball/colors.ts#L14)*
 
 **Parameters:**
 
@@ -20,4 +20,4 @@ Name | Type |
 ------ | ------ |
 `seeder` | [Seeder](_beachball_types_.md#seeder) |
 
-**Returns:** *[ColorGen](_beachball_types_.md#colorgen)*
+**Returns:** *[ColorGen](../interfaces/_beachball_types_.colorgen.md)*

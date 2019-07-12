@@ -323,11 +323,11 @@ ___
 
 ###  render
 
-▸ **render**(): *`Element`*
+▸ **render**(): *`React.ReactNode`*
 
-*Defined in [options/KeyPair.tsx:57](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/options/KeyPair.tsx#L57)*
+*Defined in [options/KeyPair.tsx:55](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/options/KeyPair.tsx#L55)*
 
-**Returns:** *`Element`*
+**Returns:** *`React.ReactNode`*
 
 ___
 

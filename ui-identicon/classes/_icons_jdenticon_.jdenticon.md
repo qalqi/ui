@@ -323,11 +323,11 @@ ___
 
 ###  render
 
-▸ **render**(): *`Element`*
+▸ **render**(): *`React.ReactNode`*
 
-*Defined in [icons/Jdenticon.tsx:11](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-identicon/src/icons/Jdenticon.tsx#L11)*
+*Defined in [icons/Jdenticon.tsx:11](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-identicon/src/icons/Jdenticon.tsx#L11)*
 
-**Returns:** *`Element`*
+**Returns:** *`React.ReactNode`*
 
 ___
 

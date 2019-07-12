@@ -327,11 +327,11 @@ ___
 
 ###  render
 
-▸ **render**(): *`Element`*
+▸ **render**(): *`React.ReactNode`*
 
-*Defined in [Identicon.tsx:94](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-identicon/src/Identicon.tsx#L94)*
+*Defined in [Identicon.tsx:94](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-identicon/src/Identicon.tsx#L94)*
 
-**Returns:** *`Element`*
+**Returns:** *`React.ReactNode`*
 
 ___
 
@@ -368,7 +368,7 @@ ___
 
 ▸ **getDerivedStateFromProps**(`__namedParameters`: object, `prevState`: `State`): *`State` | null*
 
-*Defined in [Identicon.tsx:73](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-identicon/src/Identicon.tsx#L73)*
+*Defined in [Identicon.tsx:73](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-identicon/src/Identicon.tsx#L73)*
 
 **Parameters:**
 
@@ -385,7 +385,7 @@ ___
 
 ▸ **setDefaultPrefix**(`prefix`: `Prefix`): *void*
 
-*Defined in [Identicon.tsx:69](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-identicon/src/Identicon.tsx#L69)*
+*Defined in [Identicon.tsx:69](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-identicon/src/Identicon.tsx#L69)*
 
 **Parameters:**
 
@@ -401,16 +401,16 @@ Name | Type |
 
 ### ▪ **state**: *object*
 
-*Defined in [Identicon.tsx:62](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-identicon/src/Identicon.tsx#L62)*
+*Defined in [Identicon.tsx:62](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-identicon/src/Identicon.tsx#L62)*
 
 ###  address
 
 • **address**: *string* = ""
 
-*Defined in [Identicon.tsx:63](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-identicon/src/Identicon.tsx#L63)*
+*Defined in [Identicon.tsx:63](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-identicon/src/Identicon.tsx#L63)*
 
 ###  publicKey
 
 • **publicKey**: *string* = "0x"
 
-*Defined in [Identicon.tsx:64](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-identicon/src/Identicon.tsx#L64)*
+*Defined in [Identicon.tsx:64](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-identicon/src/Identicon.tsx#L64)*

@@ -10,9 +10,9 @@
 
 ###  createItem
 
-▸ **createItem**(`address`: string, `_name?`: undefined | string, `isUppercase`: boolean): *[KeyringSectionOption](_options_types_.md#keyringsectionoption)*
+▸ **createItem**(`address`: string, `_name?`: undefined | string, `isUppercase`: boolean): *[KeyringSectionOption](../interfaces/_options_types_.keyringsectionoption.md)*
 
-*Defined in [options/item.tsx:12](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/options/item.tsx#L12)*
+*Defined in [options/item.tsx:12](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/options/item.tsx#L12)*
 
 **Parameters:**
 
@@ -22,4 +22,4 @@ Name | Type | Default |
 `_name?` | undefined \| string | - |
 `isUppercase` | boolean | true |
 
-**Returns:** *[KeyringSectionOption](_options_types_.md#keyringsectionoption)*
+**Returns:** *[KeyringSectionOption](../interfaces/_options_types_.keyringsectionoption.md)*

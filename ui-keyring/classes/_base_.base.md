@@ -37,7 +37,7 @@
 
 \+ **new Base**(): *[Base](_base_.base.md)*
 
-*Defined in [Base.ts:27](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/Base.ts#L27)*
+*Defined in [Base.ts:33](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/Base.ts#L33)*
 
 **Returns:** *[Base](_base_.base.md)*
 
@@ -45,41 +45,41 @@
 
 ###  accounts
 
-• **get accounts**(): *object*
+• **get accounts**(): *[AddressSubject](../interfaces/_observable_types_.addresssubject.md)*
 
-*Defined in [Base.ts:37](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/Base.ts#L37)*
+*Defined in [Base.ts:42](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/Base.ts#L42)*
 
-**Returns:** *object*
+**Returns:** *[AddressSubject](../interfaces/_observable_types_.addresssubject.md)*
 
 ___
 
 ###  addresses
 
-• **get addresses**(): *object*
+• **get addresses**(): *[AddressSubject](../interfaces/_observable_types_.addresssubject.md)*
 
-*Defined in [Base.ts:41](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/Base.ts#L41)*
+*Defined in [Base.ts:46](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/Base.ts#L46)*
 
-**Returns:** *object*
+**Returns:** *[AddressSubject](../interfaces/_observable_types_.addresssubject.md)*
 
 ___
 
 ###  contracts
 
-• **get contracts**(): *object*
+• **get contracts**(): *[AddressSubject](../interfaces/_observable_types_.addresssubject.md)*
 
-*Defined in [Base.ts:45](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/Base.ts#L45)*
+*Defined in [Base.ts:50](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/Base.ts#L50)*
 
-**Returns:** *object*
+**Returns:** *[AddressSubject](../interfaces/_observable_types_.addresssubject.md)*
 
 ___
 
 ###  genesisHash
 
-• **get genesisHash**(): *undefined | string*
+• **get genesisHash**(): *string | undefined*
 
-*Defined in [Base.ts:57](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/Base.ts#L57)*
+*Defined in [Base.ts:62](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/Base.ts#L62)*
 
-**Returns:** *undefined | string*
+**Returns:** *string | undefined*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 • **get keyring**(): *`KeyringInstance`*
 
-*Defined in [Base.ts:49](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/Base.ts#L49)*
+*Defined in [Base.ts:54](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/Base.ts#L54)*
 
 **Returns:** *`KeyringInstance`*
 
@@ -97,7 +97,7 @@ ___
 
 ▸ **decodeAddress**(`key`: string | `Uint8Array`, `ignoreChecksum?`: undefined | false | true): *`Uint8Array`*
 
-*Defined in [Base.ts:61](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/Base.ts#L61)*
+*Defined in [Base.ts:66](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/Base.ts#L66)*
 
 **Parameters:**
 
@@ -114,7 +114,7 @@ ___
 
 ▸ **encodeAddress**(`key`: string | `Uint8Array`): *string*
 
-*Defined in [Base.ts:65](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/Base.ts#L65)*
+*Defined in [Base.ts:70](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/Base.ts#L70)*
 
 **Parameters:**
 
@@ -130,7 +130,7 @@ ___
 
 ▸ **getPair**(`address`: string | `Uint8Array`): *`KeyringPair`*
 
-*Defined in [Base.ts:69](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/Base.ts#L69)*
+*Defined in [Base.ts:74](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/Base.ts#L74)*
 
 **Parameters:**
 
@@ -144,11 +144,11 @@ ___
 
 ###  getPairs
 
-▸ **getPairs**(): *`Array<KeyringPair>`*
+▸ **getPairs**(): *`KeyringPair`[]*
 
-*Defined in [Base.ts:73](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/Base.ts#L73)*
+*Defined in [Base.ts:78](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/Base.ts#L78)*
 
-**Returns:** *`Array<KeyringPair>`*
+**Returns:** *`KeyringPair`[]*
 
 ___
 
@@ -156,7 +156,7 @@ ___
 
 ▸ **isAvailable**(`_address`: `Uint8Array` | string): *boolean*
 
-*Defined in [Base.ts:79](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/Base.ts#L79)*
+*Defined in [Base.ts:84](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/Base.ts#L84)*
 
 **Parameters:**
 
@@ -172,7 +172,7 @@ ___
 
 ▸ **isPassValid**(`password`: string): *boolean*
 
-*Defined in [Base.ts:90](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/Base.ts#L90)*
+*Defined in [Base.ts:95](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/Base.ts#L95)*
 
 **Parameters:**
 
@@ -188,7 +188,7 @@ ___
 
 ▸ **setAddressPrefix**(`prefix`: number): *void*
 
-*Defined in [Base.ts:94](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/Base.ts#L94)*
+*Defined in [Base.ts:99](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/Base.ts#L99)*
 
 **Parameters:**
 
@@ -204,7 +204,7 @@ ___
 
 ▸ **setDevMode**(`isDevelopment`: boolean): *void*
 
-*Defined in [Base.ts:98](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/Base.ts#L98)*
+*Defined in [Base.ts:103](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/Base.ts#L103)*
 
 **Parameters:**
 

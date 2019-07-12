@@ -323,11 +323,11 @@ ___
 
 ###  render
 
-▸ **render**(): *`Element`*
+▸ **render**(): *`React.ReactNode`*
 
-*Defined in [icons/Empty.tsx:10](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-identicon/src/icons/Empty.tsx#L10)*
+*Defined in [icons/Empty.tsx:10](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-identicon/src/icons/Empty.tsx#L10)*
 
-**Returns:** *`Element`*
+**Returns:** *`React.ReactNode`*
 
 ___
 

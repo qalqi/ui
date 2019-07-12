@@ -14,6 +14,6 @@
 
 ###  Options
 
-Ƭ **Options**: *`Array<object>`*
+Ƭ **Options**: *object[]*
 
-*Defined in [types.ts:5](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-settings/src/types.ts#L5)*
+*Defined in [types.ts:5](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-settings/src/types.ts#L5)*

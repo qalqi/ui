@@ -23,20 +23,20 @@
 
 ▸ **all**(`cb`: function): *void*
 
-*Defined in [stores/Browser.ts:10](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/stores/Browser.ts#L10)*
+*Defined in [stores/Browser.ts:10](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/stores/Browser.ts#L10)*
 
 **Parameters:**
 
 ▪ **cb**: *function*
 
-▸ (`key`: string, `value`: any): *void*
+▸ (`key`: string, `value`: [KeyringJson](../interfaces/_types_.keyringjson.md)): *void*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `key` | string |
-`value` | any |
+`value` | [KeyringJson](../interfaces/_types_.keyringjson.md) |
 
 **Returns:** *void*
 
@@ -46,7 +46,7 @@ ___
 
 ▸ **get**(`key`: string, `cb`: function): *void*
 
-*Defined in [stores/Browser.ts:16](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/stores/Browser.ts#L16)*
+*Defined in [stores/Browser.ts:16](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/stores/Browser.ts#L16)*
 
 **Parameters:**
 
@@ -54,13 +54,13 @@ ___
 
 ▪ **cb**: *function*
 
-▸ (`value`: any): *void*
+▸ (`value`: [KeyringJson](../interfaces/_types_.keyringjson.md)): *void*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`value` | any |
+`value` | [KeyringJson](../interfaces/_types_.keyringjson.md) |
 
 **Returns:** *void*
 
@@ -70,7 +70,7 @@ ___
 
 ▸ **remove**(`key`: string, `cb?`: undefined | function): *void*
 
-*Defined in [stores/Browser.ts:20](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/stores/Browser.ts#L20)*
+*Defined in [stores/Browser.ts:20](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/stores/Browser.ts#L20)*
 
 **Parameters:**
 
@@ -85,16 +85,16 @@ ___
 
 ###  set
 
-▸ **set**(`key`: string, `value`: any, `cb?`: undefined | function): *void*
+▸ **set**(`key`: string, `value`: [KeyringJson](../interfaces/_types_.keyringjson.md), `cb?`: undefined | function): *void*
 
-*Defined in [stores/Browser.ts:25](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/stores/Browser.ts#L25)*
+*Defined in [stores/Browser.ts:25](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/stores/Browser.ts#L25)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `key` | string |
-`value` | any |
+`value` | [KeyringJson](../interfaces/_types_.keyringjson.md) |
 `cb?` | undefined \| function |
 
 **Returns:** *void*

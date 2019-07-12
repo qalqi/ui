@@ -23,20 +23,20 @@
 
 ▸ **all**(`cb`: function): *void*
 
-*Defined in [stores/Extension.ts:18](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/stores/Extension.ts#L18)*
+*Defined in [stores/Extension.ts:21](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/stores/Extension.ts#L21)*
 
 **Parameters:**
 
 ▪ **cb**: *function*
 
-▸ (`key`: string, `value`: any): *void*
+▸ (`key`: string, `value`: [KeyringJson](../interfaces/_types_.keyringjson.md)): *void*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `key` | string |
-`value` | any |
+`value` | [KeyringJson](../interfaces/_types_.keyringjson.md) |
 
 **Returns:** *void*
 
@@ -46,7 +46,7 @@ ___
 
 ▸ **get**(`key`: string, `cb`: function): *void*
 
-*Defined in [stores/Extension.ts:28](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/stores/Extension.ts#L28)*
+*Defined in [stores/Extension.ts:32](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/stores/Extension.ts#L32)*
 
 **Parameters:**
 
@@ -54,13 +54,13 @@ ___
 
 ▪ **cb**: *function*
 
-▸ (`value`: any): *void*
+▸ (`value`: [KeyringJson](../interfaces/_types_.keyringjson.md)): *void*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`value` | any |
+`value` | [KeyringJson](../interfaces/_types_.keyringjson.md) |
 
 **Returns:** *void*
 
@@ -70,7 +70,7 @@ ___
 
 ▸ **remove**(`key`: string, `cb?`: undefined | function): *void*
 
-*Defined in [stores/Extension.ts:36](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/stores/Extension.ts#L36)*
+*Defined in [stores/Extension.ts:40](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/stores/Extension.ts#L40)*
 
 **Parameters:**
 
@@ -85,16 +85,16 @@ ___
 
 ###  set
 
-▸ **set**(`key`: string, `value`: any, `cb?`: undefined | function): *void*
+▸ **set**(`key`: string, `value`: [KeyringJson](../interfaces/_types_.keyringjson.md), `cb?`: undefined | function): *void*
 
-*Defined in [stores/Extension.ts:44](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/stores/Extension.ts#L44)*
+*Defined in [stores/Extension.ts:48](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/stores/Extension.ts#L48)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `key` | string |
-`value` | any |
+`value` | [KeyringJson](../interfaces/_types_.keyringjson.md) |
 `cb?` | undefined \| function |
 
 **Returns:** *void*

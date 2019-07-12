@@ -25,7 +25,7 @@
 
 • **all**: *function*
 
-*Defined in [types.ts:16](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/types.ts#L16)*
+*Defined in [types.ts:16](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/types.ts#L16)*
 
 #### Type declaration:
 
@@ -35,14 +35,14 @@
 
 ▪ **cb**: *function*
 
-▸ (`key`: string, `value`: any): *void*
+▸ (`key`: string, `value`: [KeyringJson](_types_.keyringjson.md)): *void*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `key` | string |
-`value` | any |
+`value` | [KeyringJson](_types_.keyringjson.md) |
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **get**: *function*
 
-*Defined in [types.ts:17](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/types.ts#L17)*
+*Defined in [types.ts:17](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/types.ts#L17)*
 
 #### Type declaration:
 
@@ -62,13 +62,13 @@ ___
 
 ▪ **cb**: *function*
 
-▸ (`value`: any): *void*
+▸ (`value`: [KeyringJson](_types_.keyringjson.md)): *void*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`value` | any |
+`value` | [KeyringJson](_types_.keyringjson.md) |
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 • **remove**: *function*
 
-*Defined in [types.ts:18](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/types.ts#L18)*
+*Defined in [types.ts:18](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/types.ts#L18)*
 
 #### Type declaration:
 
@@ -95,16 +95,16 @@ ___
 
 • **set**: *function*
 
-*Defined in [types.ts:19](https://github.com/polkadot-js/ui/blob/354997c/packages/ui-keyring/src/types.ts#L19)*
+*Defined in [types.ts:19](https://github.com/polkadot-js/ui/blob/fd67ecd/packages/ui-keyring/src/types.ts#L19)*
 
 #### Type declaration:
 
-▸ (`key`: string, `value`: any, `cb?`: undefined | function): *void*
+▸ (`key`: string, `value`: [KeyringJson](_types_.keyringjson.md), `cb?`: undefined | function): *void*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `key` | string |
-`value` | any |
+`value` | [KeyringJson](_types_.keyringjson.md) |
 `cb?` | undefined \| function |
