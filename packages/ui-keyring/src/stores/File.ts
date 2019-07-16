@@ -4,7 +4,13 @@
 
 import { KeyringStore, KeyringJson } from '../types';
 
-import fs from 'fs';
+try {
+    var fs = require('fs');
+    // do stuff
+} catch (ex) {
+    console.log(ex);
+}
+
 import mkdirp from 'mkdirp';
 import path from 'path';
 
